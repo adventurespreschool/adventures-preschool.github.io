@@ -16,30 +16,44 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           
-      - file: 'content/about.md'
-        label: 'About Page'
-        name: 'about'
+      - file: 'content/philosophy.md'
+        label: 'Philosophy'
+        name: 'philosophy'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           
-      - file: 'content/admissions.md'
-        label: 'Admissions'
-        name: 'admissions'
+      - file: 'content/teachers.md'
+        label: 'Meet Our Teachers'
+        name: 'teachers'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           
-      - file: 'content/programs.md'
-        label: 'Programs'
-        name: 'programs'
+      - file: 'content/parent-resources.md'
+        label: 'Parent Resources'
+        name: 'parent-resources'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           
-      - file: 'content/calendar.md'
-        label: 'Calendar'
-        name: 'calendar'
+      - file: 'content/enroll.md'
+        label: 'Enroll'
+        name: 'enroll'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/nature-explore.md'
+        label: 'Nature Explore'
+        name: 'nature-explore'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/summer-camp.md'
+        label: 'Summer Camp'
+        name: 'summer-camp'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }

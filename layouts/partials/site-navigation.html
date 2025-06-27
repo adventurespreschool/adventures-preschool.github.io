@@ -1,0 +1,93 @@
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <!-- Hamburger button on the left -->
+    <button class="hamburger" onclick="toggleMobileMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
+      {{ with .Site.Params.site_logo }}
+        <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+      {{ else }}
+        {{ .Site.Title }}
+      {{ end }}
+    </a>
+    
+    <div class="flex-l items-center">
+      {{ partials.Include "i18nlist.html" . }}
+      {{ partials.IncludeCached "social/follow.html" . }}
+    </div>
+  </div>
+</nav>
+
+<!-- Menu backdrop for desktop -->
+<div class="menu-backdrop dn" id="menuBackdrop" onclick="closeMobileMenu()"></div>
+
+<!-- Mobile menu -->
+<div class="mobile-menu dn" id="mobileMenu">
+  {{ if .Site.Menus.main }}
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}" onclick="closeMobileMenu()">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>
+
+<script>
+function toggleMobileMenu() {
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const backdrop = document.getElementById('menuBackdrop');
+  
+  hamburger.classList.toggle('active');
+  
+  if (mobileMenu.classList.contains('dn')) {
+    // Show menu
+    mobileMenu.classList.remove('dn');
+    backdrop.classList.remove('dn');
+    mobileMenu.style.display = 'block';
+    backdrop.style.display = 'block';
+    setTimeout(() => {
+      mobileMenu.classList.add('active');
+      backdrop.classList.add('active');
+    }, 10);
+    // Only prevent scrolling on mobile
+    if (window.innerWidth <= 768) {
+      document.body.style.overflow = 'hidden';
+    }
+  } else {
+    // Hide menu
+    mobileMenu.classList.remove('active');
+    backdrop.classList.remove('active');
+    setTimeout(() => {
+      mobileMenu.classList.add('dn');
+      backdrop.classList.add('dn');
+      mobileMenu.style.display = 'none';
+      backdrop.style.display = 'none';
+    }, 300);
+    document.body.style.overflow = '';
+  }
+}
+
+function closeMobileMenu() {
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const backdrop = document.getElementById('menuBackdrop');
+  
+  hamburger.classList.remove('active');
+  mobileMenu.classList.remove('active');
+  backdrop.classList.remove('active');
+  setTimeout(() => {
+    mobileMenu.classList.add('dn');
+    backdrop.classList.add('dn');
+    mobileMenu.style.display = 'none';
+    backdrop.style.display = 'none';
+  }, 300);
+  document.body.style.overflow = '';
+}
+</script>

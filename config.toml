@@ -1,45 +1,61 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Our Preschool"
+title = "Adventures Preschool"
 theme = "ananke"
+summaryLength = 10
+pagination.pagerSize = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
-  description = "A nurturing preschool community"
+  description = "Children learn by being actively engaged, by playing, and by experiencing"
+  featured_image = "/images/banner/banner.jpg"
+  site_logo = "/images/logos/adventures-logo.png"
+  
+  # Contact information
+  address = "2622 Lincoln Way, Ames, Iowa"
+  phone = "515-292-1736"
+  email = "info@adventurespreschool.org"
+  
+  # Colors - make it colorful for a preschool
+  background_color_class = "bg-white"
+  text_color_class = "dark-blue"
+  
+  # Fonts
+  custom_css = ["css/custom.css"]
+  
+  # Social
+  facebook = "https://www.facebook.com/adventurespreschool"
   
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Philosophy"
+    url = "/philosophy/"
     weight = 1
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Meet Our Teachers"
+    url = "/teachers/"
     weight = 2
   [[menu.main]]
-    name = "Programs"
-    url = "/programs/"
+    name = "Parent Resources"
+    url = "/parent-resources/"
     weight = 3
   [[menu.main]]
-    name = "Admissions"
-    url = "/admissions/"
+    name = "Contact Us"
+    url = "/contact/"
     weight = 4
   [[menu.main]]
-    name = "Staff"
-    url = "/staff/"
+    name = "Enroll"
+    url = "/enroll/"
     weight = 5
   [[menu.main]]
-    name = "Calendar"
-    url = "/calendar/"
+    name = "Nature Explore"
+    url = "/nature-explore/"
     weight = 6
   [[menu.main]]
-    name = "Gallery"
-    url = "/gallery/"
+    name = "Summer Camp"
+    url = "/summer-camp/"
     weight = 7
-  [[menu.main]]
-    name = "News"
-    url = "/news/"
-    weight = 8
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 9

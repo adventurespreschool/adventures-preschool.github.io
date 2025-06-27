@@ -1,4 +1,0 @@
----
-title: 'Admissions'
----
-Enrollment information...
