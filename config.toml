@@ -1,12 +1,10 @@
-baseURL = 'https://adventures-preschool.netlify.app/'
-languageCode = 'en-us'
-title = 'Adventures Preschool'
-theme = 'ananke'
+baseURL = "/"
+languageCode = "en-us"
+title = "Our Preschool"
+theme = "ananke"
 
 [params]
-  site_logo = ""
   description = "A nurturing preschool community"
-  favicon = ""
   
 [menu]
   [[menu.main]]
