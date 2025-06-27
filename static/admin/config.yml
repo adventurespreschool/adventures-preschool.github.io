@@ -1,0 +1,84 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'content/_index.md'
+        label: 'Home Page'
+        name: 'home'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/about.md'
+        label: 'About Page'
+        name: 'about'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/admissions.md'
+        label: 'Admissions'
+        name: 'admissions'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/programs.md'
+        label: 'Programs'
+        name: 'programs'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/calendar.md'
+        label: 'Calendar'
+        name: 'calendar'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          
+      - file: 'content/contact.md'
+        label: 'Contact'
+        name: 'contact'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'news'
+    label: 'News & Updates'
+    folder: 'content/news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      
+  - name: 'staff'
+    label: 'Staff'
+    folder: 'content/staff'
+    create: true
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Photo', name: 'photo', widget: 'image', required: false }
+      - { label: 'Bio', name: 'body', widget: 'markdown' }
+      
+  - name: 'gallery'
+    label: 'Photo Gallery'
+    folder: 'content/gallery'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Cover Image', name: 'image', widget: 'image' }
+      - { label: 'Gallery Images', name: 'images', widget: 'list', field: {label: 'Image', name: 'image', widget: 'image'} }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
