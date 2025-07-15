@@ -1,0 +1,85 @@
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  {{ if site.Params.top_header }}
+  <div class="top-header py-2">
+    <div class="container">
+      <div class="row no-gutters align-items-center">
+        <div class="col-lg-4 text-center text-lg-left mb-2 mb-lg-0">
+          <ul class="list-inline mb-0">
+            {{ range site.Params.social }}
+            <li class="list-inline-item mx-1">
+              <a class="d-inline-block p-2 social-link" href="{{ .link | safeURL }}" title="{{ .title }}">
+                <i class="{{ .icon }}"></i>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mb-1 mb-lg-0">
+              <a class="contact-link" href="tel:{{ site.Params.mobile }}">
+                <i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}
+              </a>
+            </li>
+            <li class="list-inline-item d-none d-md-inline-block">
+              <span class="text-white-50 mx-2">|</span>
+            </li>
+            <li class="list-inline-item">
+              <a class="contact-link" href="mailto:{{ site.Params.email }}">
+                <i class="ti-email mr-2"></i>{{ site.Params.email }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  
+  <!-- main navigation -->
+  <div class="navigation w-100">
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+          {{ partial "image.html" (dict "Src" site.Params.logo "Alt" site.Title "Class" "img-fluid logo-img") }}
+        </a>
+        
+        <button class="navbar-toggler rounded-0 border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">Home</a>
+            </li>
+            {{ range site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu">
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /header -->

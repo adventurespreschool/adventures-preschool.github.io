@@ -32,6 +32,8 @@ We maintain open lines of communication through:
 - Math concepts through everyday experiences
 - Science experiments for young children
 
+![Creative art activities support learning at home and school](/images/activities/art-creative-easel-painting.jpg)
+
 ### Recommended Reading
 - Picture books that support our curriculum themes
 - Parenting books on child development

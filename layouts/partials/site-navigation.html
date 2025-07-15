@@ -1,21 +1,30 @@
 <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
+  <div class="flex items-center justify-between" style="flex-wrap: nowrap;">
     <!-- Hamburger button on the left -->
-    <button class="hamburger" onclick="toggleMobileMenu()">
+    <button class="hamburger flex-shrink-0" onclick="toggleMobileMenu()">
       <span></span>
       <span></span>
       <span></span>
     </button>
     
-    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline flex-shrink-0" style="margin: 0 auto;">
       {{ with .Site.Params.site_logo }}
-        <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+        <!-- Hide the text part of the logo image with CSS -->
+        <div style="display: flex; align-items: center;">
+          <img src="{{ urls.RelURL . }}" class="sailboat-only" alt="{{ $.Site.Title }}" style="max-height: 60px; width: 120px; object-fit: cover; object-position: left;" />
+          
+          <!-- New logo text with selected font -->
+          <div class="logo-text logo-text-{{ $.Site.Params.logo_font | default "caveat" }}">
+            adventures
+            <span>PRESCHOOL</span>
+          </div>
+        </div>
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
     </a>
     
-    <div class="flex-l items-center">
+    <div class="flex items-center flex-shrink-0">
       {{ partials.Include "i18nlist.html" . }}
       {{ partials.IncludeCached "social/follow.html" . }}
     </div>

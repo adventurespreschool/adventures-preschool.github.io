@@ -1,9 +1,12 @@
 ---
-title: 'Nature Explore'
+title: 'Nature Explorers'
 description: 'Discover our Nature Explore outdoor classroom at Adventures Preschool'
+featured_image: '/images/nature-explore-outdoor-learning.jpg'
 ---
 
 At Adventures Preschool, we believe that nature is one of the most powerful teachers for young children. Our Nature Explore outdoor classroom extends learning beyond four walls, providing children with daily opportunities to connect with the natural world.
+
+![Children learning outdoors in nature](/images/nature-explore-outdoor-learning.jpg)
 
 ## What is Nature Explore?
 
@@ -32,6 +35,8 @@ Children in our Nature Explore classroom:
 - Develop gross motor skills through climbing and balancing
 - Practice risk assessment in a safe environment
 - Build confidence through outdoor challenges
+
+![Child exploring nature and making discoveries](/images/activities/nature-discovery-outdoor-exploration.jpg)
 
 ## Daily Nature Time
 

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(# Resize about section images to better dimensions\nsips -z 500 800 about/indoor-play-wooden-rocker.jpg --out about/indoor-play-wooden-rocker-resized.jpg &&\nmv about/indoor-play-wooden-rocker-resized.jpg about/indoor-play-wooden-rocker.jpg &&\nsips -z 500 800 about/outdoor-play-children-crate.jpg --out about/outdoor-play-children-crate-resized.jpg &&\nmv about/outdoor-play-children-crate-resized.jpg about/outdoor-play-children-crate.jpg &&\nsips -z 500 800 about/reading-time-teacher-children.jpg --out about/reading-time-teacher-children-resized.jpg &&\nmv about/reading-time-teacher-children-resized.jpg about/reading-time-teacher-children.jpg &&\necho \"About section images resized\")",
+      "Bash(# Check the new dimensions\necho \"=== Resized Images ===\" &&\nfile backgrounds/page-title.jpg &&\nfile logos/adventures-logo-full.png &&\nfile about/indoor-play-wooden-rocker.jpg &&\nfile static/images/teachers/teacher-jill-profile.jpg)",
+      "Bash(ls:*)",
+      "Bash(hugo:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": []
+  }
+}

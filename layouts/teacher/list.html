@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<!-- teachers -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-5">{{ .Title }}</h2>
+      </div>
+    </div>
+    <!-- teacher list -->
+    <div class="row">
+      <!-- teacher -->
+      {{ range .Pages }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "teacher" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /teachers -->
+
+{{ end }}

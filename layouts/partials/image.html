@@ -1,0 +1,13 @@
+{{- $src := .Src -}}
+{{- $alt := .Alt | default "image" -}}
+{{- $class := .Class | default "" -}}
+{{- $height := .Height | default "" -}}
+{{- $width := .Width | default "" -}}
+
+{{- if $src -}}
+  {{- if hasPrefix $src "http" -}}
+    <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+  {{- else -}}
+    <img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+  {{- end -}}
+{{- end -}}

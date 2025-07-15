@@ -1,0 +1,1140 @@
+/* Adventures Preschool Custom Styles */
+
+:root {
+  --primary-color: #2C3E50; /* Professional navy */
+  --secondary-color: #34495E; /* Darker navy */
+  --accent-color: #3498DB; /* Soft blue */
+  --text-dark: #2C3E50;
+  --text-light: #7F8C8D;
+  --bg-light: #F8F9FA;
+  --warm-gray: #95A5A6;
+}
+
+/* Override theme primary color */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Make the site more playful and kid-friendly */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fredoka One', cursive;
+  color: var(--text-dark);
+}
+
+/* Fun banner styling */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' style='fill:%23ffffff;'%3E%3C/path%3E%3C/svg%3E") no-repeat bottom;
+  background-size: cover;
+  z-index: 1;
+}
+
+/* Feature cards with playful hover effect */
+.feature-card {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) rotate(1deg);
+}
+
+/* Fun facts section with subtle neutral backgrounds */
+.funfacts .col-md-3:nth-child(1) .bg-white {
+  background-color: #F8F9FA !important;
+}
+
+.funfacts .col-md-3:nth-child(2) .bg-white {
+  background-color: #E9ECEF !important;
+}
+
+.funfacts .col-md-3:nth-child(3) .bg-white {
+  background-color: #F1F3F4 !important;
+}
+
+.funfacts .col-md-3:nth-child(4) .bg-white {
+  background-color: #F8F9FA !important;
+}
+
+/* Rounded corners for images */
+.about img,
+.teacher img,
+.success-story img {
+  border-radius: 15px;
+}
+
+/* ========== MOBILE MENU ACCESSIBILITY ========== */
+
+/* Make mobile dropdown menu more accessible */
+@media (max-width: 991.98px) {
+  /* Keep blue background, change text to yellow */
+  .navigation .navbar-nav .nav-link,
+  .navbar-expand-lg .navbar-nav .nav-link,
+  .navbar .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffbc3b !important;
+    font-weight: 600 !important;
+    padding: 15px 20px !important;
+    border-bottom: 1px solid rgba(255, 188, 59, 0.2) !important;
+  }
+  
+  .navigation .navbar-nav .nav-link:hover,
+  .navigation .navbar-nav .nav-link:focus,
+  .navbar-expand-lg .navbar-nav .nav-link:hover,
+  .navbar-expand-lg .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff !important;
+    background-color: rgba(255, 188, 59, 0.1) !important;
+  }
+  
+  .navigation .navbar-nav .nav-item:last-child .nav-link,
+  .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    border-bottom: none !important;
+  }
+  
+  /* Dropdown menu items */
+  .navigation .dropdown-item,
+  .navbar .dropdown-item {
+    color: #ffbc3b !important;
+    padding: 12px 20px !important;
+  }
+  
+  .navigation .dropdown-item:hover,
+  .navigation .dropdown-item:focus,
+  .navbar .dropdown-item:hover,
+  .navbar .dropdown-item:focus {
+    background-color: rgba(255, 188, 59, 0.1) !important;
+    color: #fff !important;
+  }
+}
+
+/* ========== RESPONSIVE HEADER STYLES ========== */
+.top-header {
+  background-color: var(--primary-color) !important;
+  font-size: 14px;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.social-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.1);
+  text-align: center;
+  line-height: 1;
+}
+
+.social-link i {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.social-link:hover {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.1);
+  color: white !important;
+}
+
+.contact-link {
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  color: white !important;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  color: rgba(255,255,255,0.8) !important;
+  text-decoration: none;
+}
+
+/* Main Navigation */
+.navigation {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  position: relative;
+  background-color: #ffbc3b !important;
+  padding: 10px 0;
+  margin-top: 0;
+  border-top: none;
+}
+
+.navigation .container-fluid {
+  background-color: #ffbc3b !important;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 0;
+}
+
+/* Keep yellow navigation */
+.navigation,
+.navbar,
+.navbar-expand-lg {
+  background-color: #ffbc3b !important;
+  background: #ffbc3b !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+  background-color: rgba(44, 62, 80, 0.05);
+}
+
+/* Remove any default theme backgrounds */
+.top-hider {
+  background: none !important;
+}
+
+/* Fix header alignment and remove gaps */
+.header {
+  position: relative;
+}
+
+.header .top-header {
+  position: relative;
+  z-index: 1001;
+}
+
+.header .navigation {
+  position: relative;
+  z-index: 1000;
+  margin-top: -1px; /* Remove any gap */
+}
+
+/* Ensure clean transition between header sections */
+.top-header + .navigation {
+  border-top: none;
+}
+
+.navbar-brand {
+  padding: 8px 12px;
+  background-color: transparent !important;
+  border-radius: 0;
+  margin-right: 20px;
+  box-shadow: none;
+  transition: none;
+}
+
+.logo-img {
+  max-height: 50px;
+  width: auto;
+  background-color: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  transition: color 0.3s ease;
+  color: var(--text-dark) !important;
+  padding: 8px 15px;
+  margin: 0 5px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+  background-color: rgba(44, 62, 80, 0.05);
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 4px 8px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* Extra Small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+  .top-header {
+    font-size: 12px;
+    padding: 8px 0 !important;
+  }
+  
+  .contact-link {
+    font-size: 11px;
+  }
+  
+  .social-link {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .navbar-brand {
+    padding: 6px 10px;
+    margin-right: 15px;
+  }
+  
+  .logo-img {
+    max-height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    margin: 0;
+  }
+  
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+  
+  .hero-section {
+    padding: 120px 0 60px;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .hero-content {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .top-header {
+    font-size: 13px;
+  }
+  
+  .navbar-brand {
+    padding: 7px 11px;
+    margin-right: 18px;
+  }
+  
+  .logo-img {
+    max-height: 45px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+  }
+  
+  .hero-section {
+    padding: 130px 0 70px;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem !important;
+  }
+  
+  .hero-content {
+    font-size: 1rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .top-header {
+    font-size: 13px;
+  }
+  
+  .navbar-brand {
+    padding: 7px 11px;
+    margin-right: 18px;
+  }
+  
+  .logo-img {
+    max-height: 48px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+    margin: 0 3px;
+  }
+  
+  .hero-section {
+    padding: 140px 0 80px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+  
+  .hero-content {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .top-header {
+    font-size: 14px;
+  }
+  
+  .logo-img {
+    max-height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 8px 15px;
+    margin: 0 5px;
+  }
+  
+  .hero-section {
+    padding: 150px 0 100px;
+  }
+}
+
+/* Extra Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem !important;
+  }
+  
+  .hero-content {
+    font-size: 1.3rem !important;
+  }
+}
+
+/* Fix navigation overlap with hero */
+.hero-section {
+  margin-top: 0;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Call to action buttons */
+.cta-section {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: float 20s infinite linear;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(-100px, -100px) rotate(360deg); }
+}
+
+/* Teacher cards */
+.teacher-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+}
+
+.teacher-card:hover {
+  border-color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+/* Footer styling */
+.footer {
+  background-color: var(--text-dark);
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  .hero-section h1 { font-size: 2.5rem; }
+}
+
+/* Fix preloader background */
+.preloader {
+  background-color: #ffbc3b !important;
+}
+
+/* Fun loading animation for logo */
+.preloader img {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* ========== RESPONSIVE CONTENT SECTIONS ========== */
+
+/* Feature Cards Responsive */
+.feature-blocks {
+  padding: 40px 20px;
+}
+
+.feature-blocks .col-sm-6 {
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+/* About Section Responsive */
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--text-dark);
+}
+
+/* Fun Facts Responsive */
+.funfacts {
+  padding: 60px 0;
+}
+
+.funfacts .col-md-3 {
+  margin-bottom: 30px;
+}
+
+/* CTA Section Responsive */
+.cta-section {
+  padding: 80px 0;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-section h6 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .feature-blocks {
+    padding: 30px 15px;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+  
+  .funfacts {
+    padding: 50px 0;
+  }
+  
+  .cta-section {
+    padding: 60px 0;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-section h6 {
+    font-size: 1rem;
+  }
+  
+  /* Banner feature image responsive */
+  .banner-feature .col-xl-4 {
+    margin-bottom: 30px;
+  }
+}
+
+/* Tablet Responsive Adjustments */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section {
+    padding: 70px 0;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .feature-blocks {
+    padding: 35px 18px;
+  }
+  
+  .feature-icon {
+    font-size: 2.8rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Desktop Responsive Adjustments */
+@media (min-width: 992px) {
+  .section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .feature-blocks {
+    padding: 40px 20px;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+  }
+}
+
+/* Large Desktop Responsive Adjustments */
+@media (min-width: 1200px) {
+  .section {
+    padding: 100px 0;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+  }
+  
+  .feature-blocks {
+    padding: 50px 30px;
+  }
+  
+  .feature-icon {
+    font-size: 3.5rem;
+  }
+  
+  .cta-section {
+    padding: 100px 0;
+  }
+  
+  .cta-section h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Add Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap');
+
+/* ========== PAGE HEADER CUSTOMIZATIONS ========== */
+
+/* Make all page headers larger and more prominent */
+.page-title-section h3,
+.page-title-section .h3 {
+  font-size: 4rem !important;
+  font-weight: bold !important;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7) !important;
+}
+
+/* Hide breadcrumb arrow */
+.page-title-section .ti-angle-right {
+  display: none !important;
+}
+
+/* Center align page header content */
+.page-title-section .custom-breadcrumb {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.page-title-section .col-md-8 {
+  text-align: center !important;
+  margin: 0 auto;
+  float: none !important;
+}
+
+/* Hide colon artifacts from removed date content */
+.list-inline-item span.font-weight-bold:empty {
+  display: none !important;
+}
+
+/* Hide any remaining colons and labels */
+.list-inline-item span.font-weight-bold {
+  font-size: 0 !important;
+}
+
+.list-inline-item span.font-weight-bold + a,
+.list-inline-item span.font-weight-bold ~ a {
+  font-size: 1rem !important;
+}
+
+/* Responsive page titles */
+@media (max-width: 768px) {
+  .page-title-section .h3,
+  .page-title-section h3 {
+    font-size: 2.5rem !important;
+  }
+  
+  .page-title-section .ti-angle-right {
+    font-size: 2rem !important;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-title-section .h3,
+  .page-title-section h3 {
+    font-size: 2rem !important;
+  }
+  
+  .page-title-section .ti-angle-right {
+    font-size: 1.5rem !important;
+    margin: 0 8px;
+  }
+}
+
+/* ========== CONTENT FORMATTING ========== */
+
+/* Improve content readability and spacing */
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 30px;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  color: var(--text-dark);
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+/* Paragraph spacing and readability */
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: var(--text-light);
+  font-size: 1rem;
+}
+
+/* List styling improvements */
+ul, ol {
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: var(--text-light);
+}
+
+/* Content sections with better spacing */
+.content-section {
+  margin-bottom: 50px;
+}
+
+.content-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Special styling for value items */
+.values-list p {
+  margin-bottom: 15px;
+}
+
+.values-list p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Better spacing for nested content */
+.section .row {
+  margin-bottom: 30px;
+}
+
+.section .col-lg-6,
+.section .col-md-6 {
+  margin-bottom: 30px;
+}
+
+/* Card-like content blocks */
+.content-block {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.content-block h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+  
+  ul, ol {
+    padding-left: 25px;
+  }
+  
+  .content-block {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Modern Swiper Hero Section */
+.hero-section {
+  padding: 150px 0 100px;
+  position: relative;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+}
+
+.hero-section.overlay:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.hero-swiper {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.hero-swiper .swiper-slide {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-swiper .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* Swiper Navigation Buttons */
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  margin-top: -25px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper .swiper-button-next:hover,
+.hero-swiper .swiper-button-prev:hover {
+  background: rgba(255,255,255,0.3);
+  transform: scale(1.1);
+}
+
+.hero-swiper .swiper-button-next {
+  right: 80px;
+}
+
+.hero-swiper .swiper-button-prev {
+  left: 80px;
+}
+
+.hero-swiper .swiper-button-next:after,
+.hero-swiper .swiper-button-prev:after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Swiper Pagination */
+.hero-swiper .swiper-pagination {
+  bottom: 30px;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,0.5);
+  border: 2px solid white;
+  opacity: 1;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background: white;
+  transform: scale(1.2);
+}
+
+/* Hero Content Styling */
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.hero-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content {
+    font-size: 1rem;
+  }
+  
+  .hero-swiper .swiper-button-next {
+    right: 40px;
+  }
+  
+  .hero-swiper .swiper-button-prev {
+    left: 40px;
+  }
+  
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-content {
+    font-size: 0.9rem;
+  }
+  
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+    margin-top: -17px;
+  }
+}
+
+/* ========== MOBILE MENU OVERRIDE (LAST) ========== */
+/* Force mobile menu text to yellow - highest specificity */
+@media (max-width: 991.98px) {
+  body .navigation .navbar-collapse .navbar-nav .nav-item .nav-link,
+  body .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link,
+  body .header .navigation .navbar-nav .nav-link,
+  body .fixed-top .navigation .navbar-nav .nav-link {
+    color: #ffbc3b !important;
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+  }
+  
+  body .navigation .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+  body .navigation .navbar-collapse .navbar-nav .nav-item .nav-link:focus,
+  body .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+  body .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+    color: #fff !important;
+    background-color: rgba(255, 188, 59, 0.2) !important;
+  }
+  
+  /* Dropdown items */
+  body .navigation .dropdown-menu .dropdown-item,
+  body .navbar .dropdown-menu .dropdown-item {
+    color: #ffbc3b !important;
+  }
+  
+  body .navigation .dropdown-menu .dropdown-item:hover,
+  body .navigation .dropdown-menu .dropdown-item:focus {
+    color: #fff !important;
+    background-color: rgba(255, 188, 59, 0.2) !important;
+  }
+}
+
+/* Ensure sections after hero don't get affected by overlay */
+.hero-section + section,
+.hero-section + .bg-gray {
+  position: relative;
+  z-index: 10;
+  background: white;
+}
+
+/* Ensure hero content is visible */
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.9) !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+  .hero-slider-item {
+    min-height: 300px;
+  }
+}

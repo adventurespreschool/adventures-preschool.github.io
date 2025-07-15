@@ -1,11 +1,11 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "images/banner/banner.jpg"
   slider_item:
     # slider item loop
-    - title : "Welcome to Adventures Preschool"
-      content : "Where children learn by being actively engaged, by playing, and by experiencing. Join our nurturing community today!"
+    - title : "Where Learning is an Adventure"
+      content : "At Adventures Preschool, children learn by being actively engaged, by playing, and by experiencing. Join our nurturing community where every child's potential unfolds naturally."
       animation_in : "left"
       animation_out : "right"
       button:
@@ -14,61 +14,61 @@ slider:
         link : "enroll/"
 
     # slider item loop
-    - title : "Enrollment Open for 2025-2026"
-      content : "Secure your child's spot in our nature-based learning environment. Limited spaces available!"
+    - title : "Nature-Based Learning"
+      content : "Our outdoor classroom extends learning beyond four walls, providing children with daily opportunities to connect with the natural world and develop a lifelong love of nature."
+      animation_in : "left"
+      animation_out : "right"
+      button:
+        enable : true
+        label : "Explore Our Approach"
+        link : "nature-explore/"
+
+    # slider item loop
+    - title : "Parent Co-op Community"
+      content : "We believe that when parents and teachers work together, children benefit immensely. Join our collaborative community where families are partners in education."
       animation_in : "left"
       animation_out : "right"
       button:
         enable : true
         label : "Learn More"
-        link : "enroll/"
-
-    # slider item loop
-    - title : "Professional Teachers, Collaborative Learning"
-      content : "Our experienced staff creates an environment where every child can thrive through play-based education."
-      animation_in : "left"
-      animation_out : "right"
-      button:
-        enable : true
-        label : "Meet Our Teachers"
-        link : "teachers/"
+        link : "philosophy/"
 
 
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/about/outdoor-play-children-crate.jpg"
   feature_item:
+    # feature item loop
+    - name : "Play-Based Learning"
+      icon : "ti-game"
+      content : "Children learn best through play. Our curriculum sparks curiosity and fosters learning through hands-on experiences."
+
     # feature item loop
     - name : "Professional Teachers"
       icon : "ti-crown"
-      content : "Experienced educators dedicated to nurturing your child's growth and development"
+      content : "Our experienced educators bring passion and expertise to early childhood education, creating nurturing environments."
 
     # feature item loop
-    - name : "Nature-Based Learning"
+    - name : "Nature Explore"
       icon : "ti-tree"
-      content : "Daily outdoor exploration in our Nature Explore certified classroom"
+      content : "Our certified Nature Explore outdoor classroom provides daily opportunities for discovery and connection with nature."
 
     # feature item loop
-    - name : "Parent Co-op"
+    - name : "Parent Partnership"
       icon : "ti-heart"
-      content : "Strong community where families and teachers work together"
-
-    # feature item loop
-    - name : "Enroll Today"
-      icon : "ti-pencil-alt"
-      content : "Join our preschool family for the 2025-2026 school year"
+      content : "As a parent co-op, we encourage family involvement and believe in the power of community in raising confident children."
 
 
 ############################## about ##################################
 about:
   enable : true
   title : "About Adventures Preschool"
-  image : "images/about/about-us.jpg"
-  content : "At Adventures Preschool, we believe that children learn best through active engagement, play, and hands-on experiences. Our nature-based curriculum, combined with our parent cooperative model, creates a unique learning environment where children develop confidence, creativity, and a lifelong love of learning. With professional teachers and low student-teacher ratios, we ensure every child receives the individual attention they deserve."
+  image : "images/about/reading-time-teacher-children.jpg"
+  content : "Adventures Preschool is a parent cooperative preschool in Ames, Iowa, where children ages 3-5 learn through play, exploration, and hands-on experiences. Since our founding, we've been committed to providing high-quality early childhood education in a nurturing, nature-rich environment. Our philosophy is simple: children learn by being actively engaged, by playing, and by experiencing. We combine professional teaching expertise with parent involvement to create a warm, supportive community where every child can thrive."
   button:
     enable : true
-    label : "Learn more"
+    label : "Our Philosophy"
     link : "philosophy/"
 
 
@@ -81,22 +81,22 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Now Enrolling for 2025-2026"
-  title : "Give Your Child the Adventure of Learning"
+  subtitle : "Enrollment is now open for 2025-2026"
+  title : "Join Our Adventures Preschool Family"
   button:
     enable : true
-    label : "Schedule a Tour"
-    link : "contact/"
+    label : "Start Enrollment"
+    link : "enroll/"
 
 
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
-  title : "Our Philosophy"
-  content : "Children learn by being actively engaged, by playing, and by experiencing. This simple truth guides everything we do at Adventures Preschool. We create an environment where curiosity flourishes, friendships bloom, and young minds discover the joy of learning."
+  bg_image : "images/nature-explore-outdoor-learning.jpg"
+  title : "Our Nature Explore Classroom"
+  content : "Our certified Nature Explore outdoor classroom is a cornerstone of our educational approach. Children spend time outdoors daily, engaging with nature through gardening, building, creating art with natural materials, and exploring seasonal changes. This hands-on connection with nature fosters curiosity, builds confidence, and develops a deep respect for the environment. Research shows that nature-based learning enhances creativity, reduces stress, and improves focus - benefits that last a lifetime."
   # video link
-  video_link : "#"
+  video_link : ""
 
 
 ############################# event ################################
@@ -111,20 +111,19 @@ funfacts:
   funfact_item:
     # funfact item loop
     - name : "Years of Excellence"
-      count : "20"
-      
+      count : "30+"
+
     # funfact item loop
     - name : "Happy Families"
-      count : "500"
-      
+      count : "500+"
+
     # funfact item loop
     - name : "Certified Teachers"
       count : "8"
-      
+
     # funfact item loop
-    - name : "Nature Explore Certified"
-      count : "100"
-      unit : "%"
+    - name : "Outdoor Hours Weekly"
+      count : "15+"
 
 
 # blog

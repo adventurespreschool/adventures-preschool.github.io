@@ -14,6 +14,8 @@ Play is not just fun – it's how children make sense of the world around them. 
 - Strengthen physical coordination
 - Learn to collaborate and communicate
 
+![Children engaged in creative play](/images/about/indoor-play-wooden-rocker.jpg)
+
 ## Nature-Based Learning
 
 We incorporate nature into our daily curriculum because outdoor experiences:
@@ -22,6 +24,8 @@ We incorporate nature into our daily curriculum because outdoor experiences:
 - Teach environmental stewardship
 - Provide sensory-rich learning opportunities
 - Build confidence and resilience
+
+![Children discovering nature through hands-on exploration](/images/activities/hands-on-nature-learning.jpg)
 
 ## Active Engagement
 
