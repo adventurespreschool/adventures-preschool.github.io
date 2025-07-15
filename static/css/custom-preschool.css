@@ -1042,19 +1042,10 @@ li {
     font-size: 1rem;
   }
   
-  .hero-swiper .swiper-button-next {
-    right: 40px;
-  }
-  
-  .hero-swiper .swiper-button-prev {
-    left: 40px;
-  }
-  
+  /* Hide Swiper arrows on mobile */
   .hero-swiper .swiper-button-next,
   .hero-swiper .swiper-button-prev {
-    width: 40px;
-    height: 40px;
-    margin-top: -20px;
+    display: none !important;
   }
 }
 
@@ -1067,11 +1058,10 @@ li {
     font-size: 0.9rem;
   }
   
+  /* Hide Swiper arrows on small mobile too */
   .hero-swiper .swiper-button-next,
   .hero-swiper .swiper-button-prev {
-    width: 35px;
-    height: 35px;
-    margin-top: -17px;
+    display: none !important;
   }
 }
 
