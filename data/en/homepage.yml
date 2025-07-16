@@ -111,7 +111,7 @@ funfacts:
   funfact_item:
     # funfact item loop
     - name : "Years of Excellence"
-      count : "30+"
+      count : "50+"
 
     # funfact item loop
     - name : "Happy Families"
@@ -119,11 +119,11 @@ funfacts:
 
     # funfact item loop
     - name : "Certified Teachers"
-      count : "8"
+      count : "2"
 
     # funfact item loop
     - name : "Outdoor Hours Weekly"
-      count : "15+"
+      count : "5+"
 
 
 # blog
