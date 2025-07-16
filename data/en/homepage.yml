@@ -37,16 +37,16 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/about/outdoor-play-children-crate.jpg"
+  # image : "images/about/outdoor-play-children-crate.jpg"
   feature_item:
     # feature item loop
     - name : "Play-Based Learning"
-      icon : "ti-game"
+      icon : "ti-paint-bucket"
       content : "Children learn best through play. Our curriculum sparks curiosity and fosters learning through hands-on experiences."
 
     # feature item loop
     - name : "Professional Teachers"
-      icon : "ti-crown"
+      icon : "ti-blackboard"
       content : "Our experienced educators bring passion and expertise to early childhood education, creating nurturing environments."
 
     # feature item loop
@@ -101,13 +101,13 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false
   title : "Upcoming Events"
 
 
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "Years of Excellence"
