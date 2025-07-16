@@ -741,6 +741,46 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1rem !important;
 }
 
+/* Hide all date-related content more comprehensively */
+/* Hide "posted by" and "category" labels with colons */
+.list-inline-item:has(span.font-weight-bold) {
+  display: none !important;
+}
+
+/* Hide date displays in events */
+.card-date,
+.event-date {
+  display: none !important;
+}
+
+/* Hide date in notices */
+.notice-date,
+.d-md-table-cell.bg-primary {
+  display: none !important;
+}
+
+/* Hide time elements */
+time,
+.ti-calendar,
+.ti-time {
+  display: none !important;
+}
+
+/* Hide any list items containing date icons */
+.list-inline-item:has(.ti-calendar) {
+  display: none !important;
+}
+
+/* Fallback: Hide elements containing date patterns */
+/* Note: :has() selector may not work in all browsers */
+@supports selector(:has(*)) {
+  .list-inline-item:has(span.font-weight-bold:contains(":")),
+  *:has(.ti-calendar),
+  *:has(.ti-time) {
+    display: none !important;
+  }
+}
+
 /* Responsive page titles */
 @media (max-width: 768px) {
   .page-title-section .h3,
