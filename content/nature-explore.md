@@ -1,111 +1,74 @@
 ---
-title: 'Nature Explorers'
-description: 'Discover our Nature Explore outdoor classroom at Adventures Preschool'
-featured_image: '/images/nature-explore-outdoor-learning.jpg'
+title: "Nature Explore"
+draft: false
+bg_image: "images/backgrounds/page-title.jpg"
+description: "Our certified Nature Explore outdoor classroom"
 ---
 
-At Adventures Preschool, we believe that nature is one of the most powerful teachers for young children. Our Nature Explore outdoor classroom extends learning beyond four walls, providing children with daily opportunities to connect with the natural world.
+# Nature Explorer Program
 
-![Children learning outdoors in nature](/images/nature-explore-outdoor-learning.jpg)
+At Adventures Preschool, we believe that children can learn by being actively engaged, by playing and by experiencing. Our certified Nature Explore outdoor classroom provides children with meaningful opportunities to connect with nature while developing essential skills.
 
-## What is Nature Explore?
+## Our Journey to Certification
 
-Nature Explore is a nationally recognized program that helps schools create outdoor classrooms designed to:
-- Foster creativity and imagination
-- Develop problem-solving skills
-- Encourage physical activity
-- Build environmental awareness
-- Support all areas of child development
+We started exploring nature in 2014 with monthly walks, recognizing the value of outdoor learning. Our director attended the Nature Explore Conference in 2018, which inspired us to pursue outdoor classroom certification and create our intentionally designed outdoor learning space.
 
-## Our Outdoor Classroom Features
+## Outdoor Classroom Features
 
-### Natural Play Areas
-- **Sand and Water Station** - Sensory exploration and scientific discovery
-- **Garden Beds** - Children plant, tend, and harvest their own vegetables
-- **Building Area** - Natural materials for construction and engineering
-- **Art Station** - Creating with found natural objects
-- **Music and Movement** - Outdoor instruments and dance space
+Our small but thoughtfully designed outdoor classroom includes:
 
-### Learning Opportunities
+### Climbing Areas
+- Two climbing spaces including a preschool-sized horizontal ladder
+- Safe opportunities for physical challenge and motor development
 
-Children in our Nature Explore classroom:
-- Observe seasonal changes firsthand
-- Care for plants and learn about growth cycles
-- Explore weather patterns and natural phenomena
-- Develop gross motor skills through climbing and balancing
-- Practice risk assessment in a safe environment
-- Build confidence through outdoor challenges
+### Musical Expression
+- Rain sticks for sound exploration
+- Slap drums for rhythm activities  
+- Maracas for musical play
+- Xylophones for melody creation
 
-![Child exploring nature and making discoveries](/images/activities/nature-discovery-outdoor-exploration.jpg)
+### Messy Materials Area
+- Natural sticks for building and creating
+- Tree cookies for stacking and sorting
+- Wood pieces for construction projects
+- Opportunities for open-ended exploration
 
-## Daily Nature Time
+### Nature Art Area
+- Collection of rocks for painting and stacking
+- Pinecones for crafting and play
+- Shells from various environments
+- Easel for outdoor artistic expression
 
-Weather permitting, children spend time outdoors every day:
-- **Morning Exploration** - Free play and discovery
-- **Guided Activities** - Teacher-led nature investigations
-- **Afternoon Adventures** - Extended outdoor time for full-day students
+### Building Area
+- Wood scraps for construction
+- Natural blocks for engineering
+- Materials that encourage problem-solving
 
-*We believe there's no such thing as bad weather, only inappropriate clothing!*
+### Water and Sand Play
+- Water table for scientific exploration
+- Large sand pit for digging and building
+- Sensory experiences with natural materials
 
-## Seasonal Highlights
+### Gathering Space
+- Special area under our maple tree
+- Place for group activities and reflection
+- Connection with our natural environment
 
-### Fall
-- Leaf collection and identification
-- Pumpkin growing and harvesting
-- Nature art with autumn materials
-- Wildlife preparation observations
+## Our Philosophy in Practice
 
-### Winter
-- Snow experiments and building
-- Bird feeding and watching
-- Ice investigations
-- Winter nature walks
+Our certified Nature Explore classroom reflects our belief that children learn through active engagement. This outdoor space encourages:
+- Child-directed learning through natural materials
+- Diverse opportunities for exploration and discovery
+- Development of creativity and problem-solving skills
+- Connection with the natural world
 
-### Spring
-- Seed starting and planting
-- Butterfly garden preparation
-- Rain and mud exploration
-- New growth observations
+## Benefits of Nature-Based Learning
 
-### Summer
-- Garden maintenance and harvesting
-- Water play and cooling activities
-- Insect studies
-- Nature camps
+Children in our Nature Explorer program develop:
+- Enhanced creativity and imagination
+- Stronger problem-solving abilities
+- Improved physical coordination and strength
+- Greater environmental awareness
+- Deeper connection to natural cycles and seasons
 
-## Benefits of Outdoor Learning
-
-Research shows that nature-based learning:
-- Reduces stress and improves focus
-- Enhances creativity and imagination
-- Builds stronger immune systems
-- Develops environmental stewardship
-- Improves social skills and cooperation
-- Increases physical fitness
-
-## Parent Involvement
-
-Parents can support our Nature Explore program by:
-- Providing appropriate outdoor clothing
-- Volunteering for garden work days
-- Sharing nature-related expertise
-- Extending nature exploration at home
-- Donating natural materials
-
-## Clothing Recommendations
-
-Please send your child prepared for outdoor exploration:
-- **Layered clothing** for changing temperatures
-- **Rain gear** for wet weather play
-- **Sun protection** including hats
-- **Sturdy shoes** suitable for running and climbing
-- **Extra clothes** for inevitable messes!
-
-## Learn More
-
-Interested in learning more about Nature Explore? Visit:
-- [Nature Explore Website](https://www.natureexplore.org)
-- Schedule a tour to see our outdoor classroom
-- Talk to our teachers about daily nature activities
-
-Nature is calling – let's answer together!
+*Certified Nature Explore Classroom*

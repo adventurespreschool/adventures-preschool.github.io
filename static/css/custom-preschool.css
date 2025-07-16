@@ -468,6 +468,41 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+/* Enrollment button */
+.enroll-button-container .enroll-button {
+  display: inline-block !important;
+  background-color: #2D4F8F !important;
+  color: white !important;
+  padding: 20px 40px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(45, 79, 143, 0.3) !important;
+  transition: all 0.3s ease !important;
+  text-align: center !important;
+  margin: 20px 0 !important;
+  min-width: 300px !important;
+  border: none !important;
+}
+
+.enroll-button-container .enroll-button:hover,
+.enroll-button-container .enroll-button:focus,
+.enroll-button-container .enroll-button:active {
+  background-color: #1e3a6f !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(45, 79, 143, 0.4) !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.enroll-button-container {
+  text-align: center !important;
+  margin: 30px 0 !important;
+  display: block !important;
+  width: 100% !important;
+}
+
 .cta-section::before {
   content: '';
   position: absolute;

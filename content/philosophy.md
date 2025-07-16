@@ -1,57 +1,35 @@
 ---
-title: 'Our Philosophy'
-description: 'Learn about our educational philosophy at Adventures Preschool'
+title: "Our Philosophy"
+draft: false
+bg_image: "images/backgrounds/page-title.jpg"
+description: "Learn about our educational philosophy at Adventures Preschool"
 ---
 
-At Adventures Preschool, we believe that **children learn by being actively engaged, by playing, and by experiencing**. This core belief shapes everything we do and how we approach early childhood education.
+# Our Philosophy
 
-## Learning Through Play
+At Adventures Preschool, we believe that **children learn by being actively engaged, by playing, and by experiencing.**
 
-Play is not just fun – it's how children make sense of the world around them. Through play, children:
-- Develop social and emotional skills
-- Build problem-solving abilities
-- Enhance creativity and imagination
-- Strengthen physical coordination
-- Learn to collaborate and communicate
+## Active Learning Through Play
 
-![Children engaged in creative play](/images/about/indoor-play-wooden-rocker.jpg)
+This core belief shapes everything we do and how we approach early childhood education. We understand that young children are natural learners who thrive when they can:
 
-## Nature-Based Learning
+- Explore their environment hands-on
+- Engage with materials and experiences
+- Play as a way of understanding the world
+- Experience learning through all their senses
 
-We incorporate nature into our daily curriculum because outdoor experiences:
-- Foster curiosity and wonder
-- Promote physical health and development
-- Teach environmental stewardship
-- Provide sensory-rich learning opportunities
-- Build confidence and resilience
+## Professional Teachers Working with Parents
 
-![Children discovering nature through hands-on exploration](/images/activities/hands-on-nature-learning.jpg)
+Our professional teachers work closely with parents to create a rich, diverse learning environment where every child can thrive. As a co-operative preschool, we believe that families are integral partners in their child's educational experience.
 
-## Active Engagement
+## Interactive and Collaborative Environment
 
-Children are natural learners when they're actively involved. We encourage:
-- Hands-on exploration
-- Child-led investigations
-- Interactive learning experiences
-- Questions and discovery
-- Making connections to real life
+We create an interactive and collaborative learning environment that:
+- Supports children's natural curiosity
+- Encourages exploration and discovery
+- Builds on individual interests and strengths
+- Fosters a love of learning that lasts a lifetime
 
-## Collaborative Community
+## Our Commitment
 
-We believe that the best learning happens when families and teachers work together. Our parent co-op model ensures:
-- Strong home-school connections
-- Shared values and goals
-- Rich, diverse perspectives
-- A supportive community network
-- Meaningful parent involvement
-
-## Individual Growth
-
-Every child is unique, and we celebrate these differences by:
-- Recognizing multiple intelligences
-- Adapting to different learning styles
-- Encouraging personal interests
-- Supporting developmental readiness
-- Building on individual strengths
-
-Our philosophy creates an environment where children feel safe, valued, and excited to learn every day.
+We are committed to providing an educational experience where children feel safe, valued, and excited to learn every day. Through active engagement, play, and hands-on experiences, we help children develop the skills, confidence, and joy they need for future success.

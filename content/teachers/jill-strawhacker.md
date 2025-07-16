@@ -1,10 +1,10 @@
 ---
-title: "Jill Smith"
+title: "Jill Strawhacker"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Meet Jill Smith, Lead Teacher at Adventures Preschool"
+description : "Meet Jill Strawhacker, Lead Teacher at Adventures Preschool"
 # teacher portrait
 image: "images/teachers/teacher-jill-profile.jpg"
 # course
@@ -12,7 +12,7 @@ Course: "Lead Teacher"
 # biography
 bio: "Jill brings over 15 years of experience in early childhood education to Adventures Preschool. She holds a Master's degree in Early Childhood Education and is passionate about nature-based learning."
 # interest
-interest: ["Nature Education", "Creative Arts", "Child Development"]
+interest: []
 # contact info
 Contact:
   # contact item loop
@@ -31,7 +31,7 @@ type: "teacher"
 
 ### About Jill
 
-Jill Smith has been the heart of Adventures Preschool for over a decade. Her warm, nurturing approach creates a classroom environment where children feel safe to explore, question, and grow. With a Master's degree in Early Childhood Education from Iowa State University, Jill combines academic expertise with a genuine love for teaching young children.
+Jill Strawhacker has been the heart of Adventures Preschool for over a decade. Her warm, nurturing approach creates a classroom environment where children feel safe to explore, question, and grow. With a Master's degree in Early Childhood Education from Iowa State University, Jill combines academic expertise with a genuine love for teaching young children.
 
 ### Teaching Philosophy
 

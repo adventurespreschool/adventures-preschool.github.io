@@ -51,7 +51,7 @@ banner_feature:
 
     # feature item loop
     - name : "Nature Explore"
-      icon : "ti-tree"
+      icon : "ti-world"
       content : "Our certified Nature Explore outdoor classroom provides daily opportunities for discovery and connection with nature."
 
     # feature item loop
@@ -91,17 +91,17 @@ cta:
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/nature-explore-outdoor-learning.jpg"
   title : "Our Nature Explore Classroom"
   content : "Our certified Nature Explore outdoor classroom is a cornerstone of our educational approach. Children spend time outdoors daily, engaging with nature through gardening, building, creating art with natural materials, and exploring seasonal changes. This hands-on connection with nature fosters curiosity, builds confidence, and develops a deep respect for the environment. Research shows that nature-based learning enhances creativity, reduces stress, and improves focus - benefits that last a lifetime."
   # video link
-  video_link : ""
+  # video_link : ""
 
 
 ############################# event ################################
 event:
-  enable : false
+  enable : true
   title : "Upcoming Events"
 
 
