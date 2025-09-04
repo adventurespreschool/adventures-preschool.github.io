@@ -71,24 +71,14 @@ Our small but thoughtfully designed outdoor classroom includes:
 
 ## Nature Explore in Action
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin: 30px 0;">
+![Mud painting activities](/images/nature-explore/mud-painting.jpg)
+*Exploring textures through mud painting*
 
-<div style="text-align: center;">
-<img src="/images/nature-explore/mud-painting.jpg" alt="Mud painting activities" style="width: 100%; border-radius: 8px;">
-<p style="margin-top: 10px; font-style: italic;">Exploring textures through mud painting</p>
-</div>
+![Ice exploration activities](/images/nature-explore/ice.jpg)
+*Discovering science through ice play*
 
-<div style="text-align: center;">
-<img src="/images/nature-explore/ice.jpg" alt="Ice exploration activities" style="width: 100%; border-radius: 8px;">
-<p style="margin-top: 10px; font-style: italic;">Discovering science through ice play</p>
-</div>
-
-<div style="text-align: center;">
-<img src="/images/nature-explore/picnic-table.jpg" alt="Our outdoor gathering space" style="width: 100%; border-radius: 8px;">
-<p style="margin-top: 10px; font-style: italic;">Gathering together in nature</p>
-</div>
-
-</div>
+![Our outdoor gathering space](/images/nature-explore/picnic-table.jpg)
+*Gathering together in nature*
 
 ## Our Philosophy in Practice
 
