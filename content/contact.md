@@ -1,6 +1,7 @@
 ---
 title: 'Contact Us'
 description: 'Get in touch with Adventures Preschool'
+type: "pages"
 ---
 
 We'd love to hear from you! Whether you're interested in enrollment, have questions about our program, or want to schedule a tour, we're here to help.

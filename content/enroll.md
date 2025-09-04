@@ -1,6 +1,7 @@
 ---
 title: 'Enroll'
 description: 'Enrollment information for Adventures Preschool'
+type: "pages"
 ---
 
 ## Enrollment is Now Open for the 2025-2026 School Year!

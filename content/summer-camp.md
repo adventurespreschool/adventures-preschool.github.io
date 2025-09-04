@@ -1,6 +1,7 @@
 ---
 title: "Summer Camp"
 draft: false
+type: "pages"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "4 weeks of summer camp at Adventures Preschool"
 ---

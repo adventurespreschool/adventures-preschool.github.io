@@ -1,10 +1,11 @@
 ---
 title: "About Adventures Preschool"
 draft: false
+type: "pages"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
-image: "images/about/reading-time-teacher-children.jpg"
+image: "images/about/hanging.jpg"
 # meta description
 description : "Learn about Adventures Preschool, a parent cooperative preschool in Ames, Iowa"
 ---
@@ -47,6 +48,12 @@ Our teachers are experienced early childhood educators who:
 - **Community Connection**: Strong relationships between children, families, and teachers create the foundation for learning
 - **Environmental Responsibility**: We nurture children's connection to nature and teach sustainable practices
 - **Inclusive Environment**: We celebrate diversity and ensure all children feel valued and included
+
+### Community Involvement
+
+At Adventures Preschool, we believe in teaching children the importance of giving back to their community. Throughout the year, our students participate in various service projects, including food drives and community outreach programs.
+
+![Children participating in community service](/images/about/foodbank.jpg)
 
 ### Join Our Adventure
 

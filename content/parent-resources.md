@@ -1,6 +1,7 @@
 ---
 title: 'Parent Resources'
 description: 'Resources and information for Adventures Preschool families'
+type: "pages"
 ---
 
 # Parent Resources

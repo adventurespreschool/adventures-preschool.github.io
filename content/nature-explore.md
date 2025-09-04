@@ -1,6 +1,7 @@
 ---
 title: "Nature Explore"
 draft: false
+type: "pages"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "Our certified Nature Explore outdoor classroom"
 ---
@@ -27,32 +28,67 @@ Our small but thoughtfully designed outdoor classroom includes:
 - Maracas for musical play
 - Xylophones for melody creation
 
-### Messy Materials Area
+### Learning Areas
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
+
+<div>
+
+**Messy Materials Area**
 - Natural sticks for building and creating
 - Tree cookies for stacking and sorting
 - Wood pieces for construction projects
 - Opportunities for open-ended exploration
 
-### Nature Art Area
+**Nature Art Area**
 - Collection of rocks for painting and stacking
 - Pinecones for crafting and play
 - Shells from various environments
 - Easel for outdoor artistic expression
 
-### Building Area
+</div>
+
+<div>
+
+**Building Area**
 - Wood scraps for construction
 - Natural blocks for engineering
 - Materials that encourage problem-solving
 
-### Water and Sand Play
+**Water and Sand Play**
 - Water table for scientific exploration
 - Large sand pit for digging and building
 - Sensory experiences with natural materials
 
-### Gathering Space
+**Gathering Space**
 - Special area under our maple tree
 - Place for group activities and reflection
 - Connection with our natural environment
+
+</div>
+
+</div>
+
+## Nature Explore in Action
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin: 30px 0;">
+
+<div style="text-align: center;">
+<img src="/images/nature-explore/mud-painting.jpg" alt="Mud painting activities" style="width: 100%; border-radius: 8px;">
+<p style="margin-top: 10px; font-style: italic;">Exploring textures through mud painting</p>
+</div>
+
+<div style="text-align: center;">
+<img src="/images/nature-explore/ice.jpg" alt="Ice exploration activities" style="width: 100%; border-radius: 8px;">
+<p style="margin-top: 10px; font-style: italic;">Discovering science through ice play</p>
+</div>
+
+<div style="text-align: center;">
+<img src="/images/nature-explore/picnic-table.jpg" alt="Our outdoor gathering space" style="width: 100%; border-radius: 8px;">
+<p style="margin-top: 10px; font-style: italic;">Gathering together in nature</p>
+</div>
+
+</div>
 
 ## Our Philosophy in Practice
 
