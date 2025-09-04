@@ -75,7 +75,7 @@ Our small but thoughtfully designed outdoor classroom includes:
 
 <div style="display: flex; flex-direction: column;">
 
-<div style="height: 120px;">
+<div style="min-height: 140px; padding-bottom: 15px;">
 
 ### Hands-On Learning
 Children engage with natural materials in meaningful ways, developing creativity and problem-solving skills through open-ended exploration.
@@ -88,7 +88,7 @@ Children engage with natural materials in meaningful ways, developing creativity
 
 <div style="display: flex; flex-direction: column;">
 
-<div style="height: 120px;">
+<div style="min-height: 140px; padding-bottom: 15px;">
 
 ### Scientific Discovery  
 Our outdoor classroom provides countless opportunities for children to observe, experiment, and discover natural phenomena.
@@ -101,7 +101,7 @@ Our outdoor classroom provides countless opportunities for children to observe, 
 
 <div style="display: flex; flex-direction: column;">
 
-<div style="height: 120px;">
+<div style="min-height: 140px; padding-bottom: 15px;">
 
 ### Community Gathering
 Our special gathering space under the maple tree brings children together for group activities and reflection.
