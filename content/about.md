@@ -53,7 +53,7 @@ Our teachers are experienced early childhood educators who:
 
 At Adventures Preschool, we believe in teaching children the importance of giving back to their community. Throughout the year, our students participate in various service projects, including food drives and community outreach programs.
 
-![Children participating in community service](/images/about/foodbank.jpg)
+{{< image src="images/about/foodbank.jpg" alt="Children participating in community service" >}}
 
 ### Join Our Adventure
 
