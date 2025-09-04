@@ -8,6 +8,6 @@
   {{- if hasPrefix $src "http" -}}
     <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
   {{- else -}}
-    <img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
   {{- end -}}
 {{- end -}}
