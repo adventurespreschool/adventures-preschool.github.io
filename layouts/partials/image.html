@@ -8,6 +8,11 @@
   {{- if hasPrefix $src "http" -}}
     <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
   {{- else -}}
-    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+    {{- if eq site.BaseURL "/" -}}
+      <img src="/{{ strings.TrimPrefix "/" $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+    {{- else -}}
+      {{- $url := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" $src) -}}
+      <img src="{{ $url }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+    {{- end -}}
   {{- end -}}
 {{- end -}}
