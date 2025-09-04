@@ -104,7 +104,7 @@ Our outdoor classroom provides countless opportunities for children to observe, 
 <div style="min-height: 140px; padding-bottom: 15px;">
 
 ### Community Gathering
-Our special gathering space under the maple tree brings children together for group activities and reflection.
+Our special gathering space under the maple tree brings children together for group activities and reflection. This outdoor classroom area fosters connection and shared learning experiences.
 
 </div>
 
