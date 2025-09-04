@@ -71,14 +71,14 @@ Our small but thoughtfully designed outdoor classroom includes:
 
 ## Nature Explore in Action
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px; align-items: start;">
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 30px;">
 
 <div>
 
 ### Hands-On Learning
 Children engage with natural materials in meaningful ways, developing creativity and problem-solving skills through open-ended exploration.
 
-{{< image src="images/nature-explore/mud-painting.jpg" alt="Mud painting activities" class="img-fluid mb-3" >}}
+{{< image src="images/nature-explore/mud-painting.jpg" alt="Mud painting activities" class="img-fluid" >}}
 
 </div>
 
@@ -87,14 +87,20 @@ Children engage with natural materials in meaningful ways, developing creativity
 ### Scientific Discovery  
 Our outdoor classroom provides countless opportunities for children to observe, experiment, and discover natural phenomena.
 
-{{< image src="images/nature-explore/ice.jpg" alt="Ice exploration activities" class="img-fluid mb-3" >}}
+{{< image src="images/nature-explore/ice.jpg" alt="Ice exploration activities" class="img-fluid" >}}
 
 </div>
 
-</div>
+<div>
 
 ### Community Gathering
-{{< image src="images/nature-explore/picnic-table.jpg" alt="Our outdoor gathering space" class="img-fluid" width="600" >}}
+Our special gathering space under the maple tree brings children together for group activities and reflection.
+
+{{< image src="images/nature-explore/picnic-table.jpg" alt="Our outdoor gathering space" class="img-fluid" >}}
+
+</div>
+
+</div>
 
 ## Our Philosophy in Practice
 
