@@ -1,4 +1,4 @@
-baseURL = "https://ericlarssen.github.io/adventures-preschool.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Adventures Preschool"
 theme = "educenter"
@@ -71,13 +71,13 @@ pagerSize = 6
   mailchimp_form_action = "" # replace this url with yours
   mailchimp_form_name = "" # replace this code with yours
 
-  # google map
-  [params.map]
-  enable = true
-  gmap_api = "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&region=US"
-  map_latitude = "42.0307"
-  map_longitude = "-93.6319"
-  map_marker = "images/marker.png"
+  # # google map
+  # [params.map]
+  # enable = true
+  # gmap_api = "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&region=US"
+  # map_latitude = "42.0307"
+  # map_longitude = "-93.6319"
+  # map_marker = "images/marker.png"
 
   # cookies
   [params.cookies]

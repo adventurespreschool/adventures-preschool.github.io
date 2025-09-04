@@ -1,6 +1,7 @@
 ---
 title: "Nature Explore"
 draft: false
+type: "pages"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "Our certified Nature Explore outdoor classroom"
 ---
