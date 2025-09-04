@@ -1,4 +1,4 @@
-baseURL = "https://ericlarssen.github.io/adventures-preschool/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Adventures Preschool"
 theme = "educenter"
