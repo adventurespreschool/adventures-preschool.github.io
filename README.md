@@ -1,159 +1,172 @@
-# How to Update the Adventures Preschool Website
+# Website Admin Setup Guide
 
-This guide helps parents and administrators make content updates to the Adventures Preschool website without needing technical expertise.
+Welcome! This guide will help you get set up to edit the Adventures Preschool website. Don't worry if you're not technical - we'll walk through everything step by step.
 
-## What You'll Need
+## What You'll Be Doing
 
-- A text editor (like Notepad on Windows or TextEdit on Mac)
-- Access to the website files
-- Basic familiarity with typing and saving files
+As a parent administrator, you'll be able to:
+- Edit website content (text, images, teacher profiles)
+- Update enrollment information and announcements
+- Add new events or program information
+- Make changes that automatically publish to the live website
 
-## Common Updates
+## Step 1: Create a GitHub Account
 
-### 1. Updating Homepage Content
+1. Go to [github.com](https://github.com)
+2. Click **"Sign up"** in the top right corner
+3. Choose a username (can be your name or anything you prefer)
+4. Use your personal email address
+5. Create a secure password
+6. Complete the verification process
 
-The main homepage sections are controlled by a single file:
-**Location:** `/data/en/homepage.yml`
+**Important:** Remember your username - you'll need to share it with Eric for access.
 
-This file contains:
-- **Hero Slider** (main images and text at top of page)
-- **Feature Boxes** (the colored boxes highlighting key features)
-- **About Section** (brief description of the school)
-- **Call-to-Action Sections** (enrollment prompts)
+## Step 2: Request Access to Adventures Preschool Organization
 
-#### Example: Changing Slider Text
-```yaml
-slider:
-  enable: true
-  bg_image: "images/banner/banner-1.jpg"
-  slider_item:
-    - title: "Welcome to Adventures Preschool"
-      content: "Your new text here"
-      animation_in: "left"
-      animation_out: "right"
-      button:
-        enable: true
-        label: "Learn More"
-        link: "about"
+1. Send Eric ([@ericlarssen](https://github.com/ericlarssen)) your GitHub username
+2. Ask him to add you to the [Adventures Preschool organization](https://github.com/adventurespreschool)
+3. You'll receive an email invitation to join the organization
+4. Click **"Join @adventurespreschool"** in the email
+
+## Step 3: Understanding the Website Structure
+
+The website content is organized in folders:
+
+```
+content/
+├── _index.md          (Homepage content)
+├── about.md           (About page)
+├── contact.md         (Contact page)
+├── enroll.md          (Enrollment page)
+├── nature-explore.md  (Nature Explore program)
+├── philosophy.md      (Our Philosophy page)
+├── summer-camp.md     (Summer camp info)
+├── parent-resources.md (Parent resources)
+└── teachers/          (Teacher profile pages)
+    ├── teacher-1.md
+    └── teacher-2.md
+
+data/en/homepage.yml   (Homepage sections like slider, features)
 ```
 
-Simply change the text between the quotes and save the file.
+## Step 4: Making Your First Edit
 
-### 2. Updating Teacher Information
+### Using GitHub.dev (Recommended for Beginners)
 
-Teacher profiles are in: `/content/teachers/`
+1. Go to the repository: [https://github.com/adventurespreschool/preschool-website](https://github.com/adventurespreschool/preschool-website)
+2. Press the **period (.)** key on your keyboard, OR change ".com" to ".dev" in the URL
+3. This opens GitHub.dev - a web-based editor that looks like a code editor
+4. Navigate to the file you want to edit using the file explorer on the left
+5. Click on the file to open it for editing
 
-Each teacher has their own file (e.g., `jane-doe.md`). To update:
+### Making Changes
 
-1. Open the teacher's file
-2. Update the information at the top between the `---` marks:
-```markdown
+**For Text Content:**
+- Most content is written in Markdown format
+- Regular text is just typed normally
+- Headers use # symbols: `# Big Header`, `## Smaller Header`
+- Bold text: `**bold text**`
+- Links: `[Link Text](https://example.com)`
+
+**For Images:**
+- Images use this format: `{{< image src="images/folder/filename.jpg" alt="Description" >}}`
+- To add new images, upload them to the `static/images/` folder first
+
+## Step 5: Understanding Commits and Changes
+
+Think of "commits" like saving different versions of a document:
+
+### What is a Commit?
+- A commit is like taking a snapshot of your changes
+- Each commit has a message describing what you changed
+- You can always go back to previous versions if needed
+
+### Making a Commit:
+1. After making changes in GitHub.dev, look for the **Source Control** panel (usually on the left)
+2. You'll see your changed files listed
+3. Write a **commit message** describing what you changed (e.g., "Updated enrollment dates for 2025-2026")
+4. Click **"Commit & Push"**
+
+### Good Commit Message Examples:
+- ✅ "Updated teacher bio for Sarah Johnson"
+- ✅ "Added new summer camp dates"
+- ✅ "Fixed typo on enrollment page"
+- ❌ "changes" (too vague)
+- ❌ "stuff" (not descriptive)
+
+## Step 6: How Changes Go Live
+
+**Automatic Publishing:**
+- When you commit changes to the "main" branch, the website automatically rebuilds
+- Changes typically appear on the live site within 2-3 minutes
+- You'll see a green checkmark next to your commit when it's successfully published
+
+**If Something Goes Wrong:**
+- Don't panic! Every change is saved and can be undone
+- Contact Eric immediately if the website looks broken
+- He can quickly revert to the previous version
+
+## Step 7: Common Editing Tasks
+
+### Updating Homepage Content
+- Edit `data/en/homepage.yml` for slider images and feature boxes
+- Edit `content/_index.md` for the main homepage text
+
+### Adding a New Teacher
+1. Go to `content/teachers/` folder
+2. Copy an existing teacher file
+3. Rename it (e.g., `new-teacher-name.md`)
+4. Edit the content with new teacher's information
+5. Add their photo to `static/images/teachers/`
+
+### Updating Enrollment Information
+- Edit `content/enroll.md`
+- Update dates, fees, or requirements as needed
+
+### Changing Contact Information
+- Edit `content/contact.md` for page content
+- Edit `config.toml` for site-wide contact info (header/footer)
+
+## Step 8: Best Practices
+
+### Before Making Changes:
+- Read through the current content to understand the tone and style
+- Make sure you have the correct, up-to-date information
+- If unsure about something, ask other parents or Eric first
+
+### When Editing:
+- Make small, focused changes rather than many changes at once
+- Preview your changes before committing (GitHub.dev has a preview feature)
+- Write clear commit messages
+- Double-check spelling and grammar
+
+### After Publishing:
+- Visit the live website to make sure your changes look correct
+- Check that all links still work
+- Test the site on both desktop and mobile if you made significant changes
+
+## Getting Help
+
+### If You Need Help:
+1. **First:** Check this guide and the README_FOR_PARENTS.md file
+2. **Second:** Ask other parent administrators
+3. **Third:** Contact Eric (@ericlarssen) on GitHub or via email
+
+### Common Issues:
+- **"I can't see my changes"** - Wait 3-5 minutes for the site to rebuild
+- **"The formatting looks wrong"** - Check your Markdown syntax
+- **"I broke something"** - Don't worry! Contact Eric and he can fix it quickly
+
+### Learning Resources:
+- [Basic Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+- [GitHub.dev Documentation](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)
+
+## Emergency Contacts
+
+- **Eric Larssen** (Technical Admin): [@ericlarssen](https://github.com/ericlarssen)
+- **Repository**: https://github.com/adventurespreschool/preschool-website
+- **Live Website**: https://ericlarssen.github.io/adventures-preschool.github.io/
+
 ---
-title: "Jane Doe"
-draft: false
-designation: "Lead Teacher"
-image: "images/teachers/jane-doe.jpg"
-contact:
-  - name: "Email"
-    icon: "ti-email"
-    link: "mailto:jane@adventurespreschool.org"
----
-```
-3. Update the biography below the second `---`
 
-### 3. Adding/Changing Images
-
-1. Place new images in: `/static/images/`
-2. Use descriptive names (e.g., `outdoor-classroom-2024.jpg`)
-3. Reference them in content files as: `images/your-image-name.jpg`
-
-**Image Tips:**
-- Keep file sizes reasonable (under 2MB)
-- Use .jpg for photos, .png for graphics with transparency
-- Consider image dimensions (1920x1080 works well for hero images)
-
-### 4. Updating Regular Pages
-
-Pages like About, Philosophy, Contact are in: `/content/`
-
-Each page has:
-- **Front Matter** (between `---` marks): Controls title, description, header image
-- **Content** (after the second `---`): The actual page text in Markdown format
-
-#### Basic Markdown Formatting:
-```markdown
-# Large Heading
-## Medium Heading
-### Small Heading
-
-**Bold text**
-*Italic text*
-
-- Bullet point
-- Another bullet point
-
-1. Numbered list
-2. Second item
-
-[Link text](https://example.com)
-```
-
-### 5. Updating Contact Information
-
-Main contact details are in: `/config.toml`
-
-Look for sections like:
-```toml
-# Contact info
-[params.contact]
-phone = "555-123-4567"
-email = "info@adventurespreschool.org"
-address = "123 Main Street, Your City, State 12345"
-```
-
-## Making Your Changes Live
-
-After making changes:
-
-1. **Test Locally** (if you have Hugo installed):
-   ```bash
-   hugo server
-   ```
-   Visit `http://localhost:1313` to preview
-
-2. **Build the Site**:
-   ```bash
-   hugo --gc --minify
-   ```
-   This creates the website files in the `/public/` folder
-
-3. **Upload to Web Host**:
-   Upload the contents of `/public/` to your web hosting service
-
-## Need Help?
-
-If you get stuck:
-- Check that all quotes are closed properly in YAML/TOML files
-- Ensure you haven't deleted any `:` or `-` characters in YAML files
-- Make sure image paths are correct (starts with `images/`)
-- Keep a backup of files before making major changes
-
-## Quick Reference
-
-| What to Update | File Location | File Type |
-|----------------|---------------|-----------|
-| Homepage sections | `/data/en/homepage.yml` | YAML |
-| Teacher profiles | `/content/teachers/*.md` | Markdown |
-| About page | `/content/about.md` | Markdown |
-| Contact info | `/config.toml` | TOML |
-| Images | `/static/images/` | JPG/PNG |
-| Navigation menu | `/config.toml` (menu section) | TOML |
-
-## Important Notes
-
-- Always make a backup before making changes
-- Changes won't appear until you rebuild and upload the site
-- The site is static, so there's no database to worry about
-- If something breaks, you can always restore from your backup
-
-Remember: The website is designed to be forgiving. If something doesn't look right after an update, you can always revert to your backup and try again!
+**Remember:** You're doing great by volunteering to help maintain our school's website! Don't be afraid to make changes - everything can be undone if needed. The most important thing is keeping our families informed with accurate, up-to-date information.
