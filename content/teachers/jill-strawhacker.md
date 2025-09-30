@@ -7,25 +7,18 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Meet Jill Strawhacker, Lead Teacher at Adventures Preschool"
 # teacher portrait
-image: "images/teachers/teacher-jill-profile.jpg"
+image: "images/teachers/jill.jpg"
 # course
 Course: "Lead Teacher"
 # biography
-bio: "Jill brings over 15 years of experience in early childhood education to Adventures Preschool. She holds a Master's degree in Early Childhood Education and is passionate about nature-based learning."
+bio: Jill brings over 15 years of experience in early childhood education to Adventures Preschool. She holds a Master's degree in Early Childhood Education and is passionate about nature-based learning.
 # interest
-interest: []
 # contact info
 Contact:
   # contact item loop
   - name : "jill@adventurespreschool.org"
     icon : "ti-email"
     link : "mailto:jill@adventurespreschool.org"
-
-  # contact item loop
-  - name : "Adventures Preschool"
-    icon : "ti-location-pin"
-    link : "#"
-
 # type
 type: "teacher"
 ---

@@ -3,9 +3,9 @@ title: "About Adventures Preschool"
 draft: false
 type: "pages"
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/outdoors/playground.jpg"
 # about image
-image: "images/about/hanging.jpg"
+image: "images/outdoors/crafts.jpg"
 # meta description
 description : "Learn about Adventures Preschool, a parent cooperative preschool in Ames, Iowa"
 ---

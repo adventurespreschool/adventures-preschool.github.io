@@ -64,7 +64,7 @@ banner_feature:
 about:
   enable : true
   title : "About Adventures Preschool"
-  image : "images/about/hanging.jpg"
+  image : "images/outdoors/playground.jpg"
   content : "Adventures Preschool is a parent cooperative preschool in Ames, Iowa, where children ages 3-5 learn through play, exploration, and hands-on experiences. Since our founding, we've been committed to providing high-quality early childhood education in a nurturing, nature-rich environment. Our philosophy is simple: children learn by being actively engaged, by playing, and by experiencing. We combine professional teaching expertise with parent involvement to create a warm, supportive community where every child can thrive."
   button:
     enable : true

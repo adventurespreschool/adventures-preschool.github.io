@@ -2,7 +2,7 @@
 title: "Our Philosophy"
 draft: false
 type: "pages"
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/outdoors/kid-on-playground.jpg"
 description: "Learn about our educational philosophy at Adventures Preschool"
 ---
 

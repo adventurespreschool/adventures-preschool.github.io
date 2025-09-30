@@ -2,7 +2,7 @@
 title: "Nature Explore"
 draft: false
 type: "pages"
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/outdoors/garden.jpg"
 description: "Our certified Nature Explore outdoor classroom"
 ---
 
@@ -82,7 +82,9 @@ Children engage with natural materials in meaningful ways, developing creativity
 
 </div>
 
-{{< image src="images/nature-explore/mud-painting.jpg" alt="Mud painting activities" class="img-fluid" >}}
+<div style="height: 300px; overflow: hidden;">
+<img src="/images/nature-explore/mud-painting.jpg" alt="Mud painting activities" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
 
 </div>
 
@@ -90,12 +92,14 @@ Children engage with natural materials in meaningful ways, developing creativity
 
 <div style="min-height: 140px; padding-bottom: 15px;">
 
-### Scientific Discovery  
+### Scientific Discovery
 Our outdoor classroom provides countless opportunities for children to observe, experiment, and discover natural phenomena.
 
 </div>
 
-{{< image src="images/nature-explore/ice.jpg" alt="Ice exploration activities" class="img-fluid" >}}
+<div style="height: 300px; overflow: hidden;">
+<img src="/images/nature-explore/ice.jpg" alt="Ice exploration activities" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
 
 </div>
 
@@ -108,7 +112,9 @@ Our special gathering space under the maple tree brings children together for gr
 
 </div>
 
-{{< image src="images/nature-explore/picnic-table.jpg" alt="Our outdoor gathering space" class="img-fluid" >}}
+<div style="height: 300px; overflow: hidden;">
+<img src="/images/outdoors/picnic-table.jpg" alt="Our outdoor gathering space" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
 
 </div>
 
