@@ -36,18 +36,14 @@ Our summer camp continues our commitment to active, hands-on learning through pl
 - **Music and Movement** activities
 - **Outdoor Games** and collaborative play
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px auto;">
+<div class="row mb-4">
 
-<div style="height: 400px; overflow: hidden;">
-
-<img src="/images/outdoors/crafts.jpg" alt="Outdoor crafts and creative activities" style="width: 100%; height: 100%; object-fit: cover;">
-
+<div class="col-md-6 mb-4 mb-md-0">
+{{< image src="images/outdoors/crafts.jpg" alt="Outdoor crafts and creative activities" class="img-fluid" >}}
 </div>
 
-<div style="height: 400px; overflow: hidden;">
-
-<img src="/images/outdoors/water-table.jpg" alt="Water table activities" style="width: 100%; height: 100%; object-fit: cover;">
-
+<div class="col-md-6 mb-4 mb-md-0">
+{{< image src="images/outdoors/water-table.jpg" alt="Water table activities" class="img-fluid" >}}
 </div>
 
 </div>

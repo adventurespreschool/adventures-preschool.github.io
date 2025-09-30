@@ -30,9 +30,8 @@ Our small but thoughtfully designed outdoor classroom includes:
 
 ### Learning Areas
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
-
-<div>
+<div class="row mb-4">
+<div class="col-md-6">
 
 **Messy Materials Area**
 - Natural sticks for building and creating
@@ -47,8 +46,7 @@ Our small but thoughtfully designed outdoor classroom includes:
 - Easel for outdoor artistic expression
 
 </div>
-
-<div>
+<div class="col-md-6">
 
 **Building Area**
 - Wood scraps for construction
@@ -66,54 +64,41 @@ Our small but thoughtfully designed outdoor classroom includes:
 - Connection with our natural environment
 
 </div>
-
 </div>
 
 ## Nature Explore in Action
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 30px;">
+<div class="row mb-4">
 
-<div style="display: flex; flex-direction: column;">
-
-<div style="min-height: 140px; padding-bottom: 15px;">
+<div class="col-md-4 mb-4 mb-md-0">
 
 ### Hands-On Learning
 Children engage with natural materials in meaningful ways, developing creativity and problem-solving skills through open-ended exploration.
 
+<div class="mt-3">
+{{< image src="images/nature-explore/mud-painting.jpg" alt="Mud painting activities" class="img-fluid" >}}
 </div>
 
-<div style="height: 300px; overflow: hidden;">
-<img src="/images/nature-explore/mud-painting.jpg" alt="Mud painting activities" style="width: 100%; height: 100%; object-fit: cover;">
 </div>
 
-</div>
-
-<div style="display: flex; flex-direction: column;">
-
-<div style="min-height: 140px; padding-bottom: 15px;">
+<div class="col-md-4 mb-4 mb-md-0">
 
 ### Scientific Discovery
 Our outdoor classroom provides countless opportunities for children to observe, experiment, and discover natural phenomena.
 
+<div class="mt-3">
+{{< image src="images/nature-explore/ice.jpg" alt="Ice exploration activities" class="img-fluid" >}}
 </div>
 
-<div style="height: 300px; overflow: hidden;">
-<img src="/images/nature-explore/ice.jpg" alt="Ice exploration activities" style="width: 100%; height: 100%; object-fit: cover;">
 </div>
 
-</div>
-
-<div style="display: flex; flex-direction: column;">
-
-<div style="min-height: 140px; padding-bottom: 15px;">
+<div class="col-md-4 mb-4 mb-md-0">
 
 ### Community Gathering
 Our special gathering space under the maple tree brings children together for group activities and reflection. This area fosters connection.
 
-</div>
-
-<div style="height: 300px; overflow: hidden;">
-<img src="/images/outdoors/picnic-table.jpg" alt="Our outdoor gathering space" style="width: 100%; height: 100%; object-fit: cover;">
+<div class="mt-3">
+{{< image src="images/outdoors/picnic-table.jpg" alt="Our outdoor gathering space" class="img-fluid" >}}
 </div>
 
 </div>

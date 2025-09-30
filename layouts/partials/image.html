@@ -3,16 +3,17 @@
 {{- $class := .Class | default "" -}}
 {{- $height := .Height | default "" -}}
 {{- $width := .Width | default "" -}}
+{{- $style := .Style | default "" -}}
 
 {{- if $src -}}
   {{- if hasPrefix $src "http" -}}
-    <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+    <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $style }} style="{{ . }}"{{ end }}>
   {{- else -}}
     {{- if eq site.BaseURL "/" -}}
-      <img src="/{{ strings.TrimPrefix "/" $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+      <img src="/{{ strings.TrimPrefix "/" $src }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $style }} style="{{ . }}"{{ end }}>
     {{- else -}}
       {{- $url := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" $src) -}}
-      <img src="{{ $url }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>
+      <img src="{{ $url }}" alt="{{ $alt }}" class="{{ $class }}"{{ with $height }} height="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $style }} style="{{ . }}"{{ end }}>
     {{- end -}}
   {{- end -}}
 {{- end -}}
