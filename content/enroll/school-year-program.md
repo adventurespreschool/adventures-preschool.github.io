@@ -1,5 +1,5 @@
 ---
-title: 'Enroll'
+title: 'School Year Program'
 description: 'Enrollment information for Adventures Preschool'
 type: "pages"
 ---

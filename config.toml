@@ -91,63 +91,84 @@ pagerSize = 6
   link = "https://www.facebook.com/adventurespreschool"
 
 ############################ English Navigation ###############
-
-# main menu
 [[menu.main]]
-  name = "About"
-  url = "about/"
+  name = "Enroll"
+  weight = 1
+  [[menu.main]]
+  parent = "Enroll"
+  name = "School Year Program"
+  url = "enroll/school-year-program/"
   weight = 1
 
+  [[menu.main]]
+  parent = "Enroll"
+  name = "Summer Camp"
+  url = "enroll/summer-camp/"
+  weight = 2
+
 [[menu.main]]
-  name = "Programs"
+  name = "Certifications"
   weight = 2
   hasChildren = true
 
   [[menu.main]]
-  parent = "Programs"
-  name = "Our Philosophy"
-  url = "philosophy/"
-
-  [[menu.main]]
-  parent = "Programs"
+  parent = "Certifications"
   name = "Nature Explore"
-  url = "nature-explore/"
+  url = "certifications/nature-explore/"
 
   [[menu.main]]
-  parent = "Programs"
-  name = "Summer Camp"
-  url = "summer-camp/"
+  parent = "Certifications"
+  name = "IQ4K"
+  url = "certifications/iq4k/"
 
+  [[menu.main]]
+  parent = "Certifications"
+  name = "Iowa HHS"
+  url = "certifications/iowa-hhs/"
+
+# main menu
 [[menu.main]]
-  name = "Teachers"
-  url = "teachers/"
+  name = "Resources"
   weight = 3
 
+  [[menu.main]]
+  parent = "Resources"
+  name = "About Us"
+  url = "resources/about/"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Philosophy"
+  url = "resources/philosophy/"
+  weight = 2
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "Teachers"
+    url = "teachers/"
+    weight = 3
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "Parents"
+    url = "resources/parents/"
+    weight = 4
+
 [[menu.main]]
-  name = "Parents"
-  url = "parent-resources/"
+  name = "Contact Us"
+  url = "contact/"
   weight = 4
 
-[[menu.main]]
-  name = "Contact"
-  url = "contact/"
-  weight = 5
+# # footer menu
+# [[menu.footer]]
+#   name = "teachers"
+#   url = "teacher/"
 
-[[menu.main]]
-  name = "Enroll"
-  url = "enroll/"
-  weight = 6
+# [[menu.footer]]
+#   name = "gallery"
+#   url = "gallery/"
 
-# footer menu
-
-[[menu.footer]]
-  name = "teachers"
-  url = "teacher/"
-
-[[menu.footer]]
-  name = "gallery"
-  url = "gallery/"
-
-[[menu.footer]]
-  name = "contact"
-  url = "contact/"
+# [[menu.footer]]
+#   name = "contact"
+#   url = "contact/"

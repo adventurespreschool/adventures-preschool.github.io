@@ -11,7 +11,7 @@ slider:
       button:
         enable : true
         label : "Enroll Now"
-        link : "enroll/"
+        link : "enroll/school-year-program"
 
     # slider item loop
     - title : "Nature-Based Learning"
@@ -21,7 +21,7 @@ slider:
       button:
         enable : true
         label : "Explore Our Approach"
-        link : "nature-explore/"
+        link : "certifications/nature-explore/"
 
     # slider item loop
     - title : "Parent Co-op Community"
@@ -31,7 +31,7 @@ slider:
       button:
         enable : true
         label : "Learn More"
-        link : "philosophy/"
+        link : "resources/philosophy/"
 
 
 ############################### Banner feature ###############################
@@ -69,7 +69,7 @@ about:
   button:
     enable : true
     label : "Our Philosophy"
-    link : "philosophy/"
+    link : "resources/philosophy/"
 
 
 ############################# Course ################################
@@ -86,7 +86,7 @@ cta:
   button:
     enable : true
     label : "Start Enrollment"
-    link : "enroll/"
+    link : "enroll/school-year-program"
 
 
 ######################## Success story #############################

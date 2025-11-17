@@ -53,7 +53,7 @@ data/en/homepage.yml   (Homepage sections like slider, features)
 
 ### Using GitHub.dev (Recommended for Beginners)
 
-1. Go to the repository: [https://github.com/adventurespreschool/preschool-website](https://github.com/adventurespreschool/preschool-website)
+1. Go to the repository: [https://github.com/adventurespreschool/adventures-preschool.github.io](https://github.com/adventurespreschool/adventures-preschool.github.io)
 2. Press the **period (.)** key on your keyboard, OR change ".com" to ".dev" in the URL
 3. This opens GitHub.dev - a web-based editor that looks like a code editor
 4. Navigate to the file you want to edit using the file explorer on the left

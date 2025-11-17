@@ -45,9 +45,9 @@ Follow us on social media for updates, photos, and news:
 ## Questions?
 
 Have a specific question? Here are some quick links:
-- [Enrollment Information](/enroll/)
-- [Our Philosophy](/philosophy/)
-- [Parent Resources](/parent-resources/)
-- [Summer Camp](/summer-camp/)
+- [Enrollment Information](/enroll/school-year-program/)
+- [Our Philosophy](/resources/philosophy/)
+- [Parent Resources](/resources/parents/)
+- [Summer Camp](/enroll/summer-camp/)
 
 We look forward to welcoming you to the Adventures Preschool family!

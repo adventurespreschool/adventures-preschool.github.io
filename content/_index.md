@@ -43,7 +43,7 @@ Parents are an integral part of our preschool community. We encourage family inv
 
 ## Ready to Join Our Community?
 
-[**Click Here to Enroll Now!**](/enroll/)
+[**Click Here to Enroll Now!**](/enroll/school-year-program)
 
 <div class="contact-info">
 

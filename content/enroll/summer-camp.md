@@ -6,20 +6,20 @@ bg_image: "images/outdoors/music-and-movement.jpg"
 description: "4 weeks of summer camp at Adventures Preschool"
 ---
 
-# Summer Camp 2024
+# Summer Camp 2026
 
 Join us for an exciting summer adventure! Adventures Preschool offers 4 weeks of summer camp filled with fun, learning, and outdoor exploration.
 
 ## Summer Camp Schedule
 
-**Dates:** June 2-27, 2024  
+**Dates:** June 2-27, 2026  
 **Days:** Monday through Friday  
 
 ### Available Weeks:
-- **Week 1:** June 2-6
-- **Week 2:** June 9-13  
-- **Week 3:** June 16-20
-- **Week 4:** June 23-27
+- **Week 1:** June 1-5
+- **Week 2:** June 8-12  
+- **Week 3:** June 15-19
+- **Week 4:** June 22-26
 
 ## Registration
 
