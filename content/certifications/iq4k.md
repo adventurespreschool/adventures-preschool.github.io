@@ -1,14 +1,14 @@
 ---
-title: "IQ4K Level 1"
+title: "IQ4K Level 2"
 draft: false
 type: "pages"
 bg_image: "images/classroom/learning.jpg"
 description: "Iowa Quality for Kids Level 1 Certified Program"
 ---
 
-# IQ4K Level 1 Certified Program
+# IQ4K Level 2 Certified Program
 
-At Adventures Preschool, we are proud to be an Iowa Quality for Kids (IQ4K) Level 1 certified program. This certification demonstrates our commitment to providing high-quality early childhood education and continuously improving our practices to better serve the children and families in our community.
+At Adventures Preschool, we are proud to be an Iowa Quality for Kids (IQ4K) Level 2 certified program. This certification demonstrates our commitment to providing high-quality early childhood education and continuously improving our practices to better serve the children and families in our community.
 
 ## What is IQ4K?
 
@@ -16,7 +16,7 @@ Iowa Quality for Kids is Iowa's Quality Rating and Improvement System (QRIS) for
 
 ## Our Commitment to Quality
 
-Achieving IQ4K Level 1 certification means we meet enhanced standards across six key areas:
+Achieving IQ4K Level 2 certification means we meet enhanced standards across six key areas:
 
 <div class="row mb-4">
 <div class="col-md-6">
