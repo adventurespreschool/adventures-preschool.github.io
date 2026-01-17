@@ -12,13 +12,19 @@ At Adventures Preschool, we believe that children can learn by being actively en
 
 Visit the Nature Explorer [site](https://certified.natureexplore.org/adventures-preschool/) for our certification and more information!
 
-## Our Journey to Certification
+## Our Certified Nature Explore Outdoor Classroom
 
-We started exploring nature in 2014 with monthly walks, recognizing the value of outdoor learning. Our director attended the Nature Explore Conference in 2018, which inspired us to pursue outdoor classroom certification and create our intentionally designed outdoor learning space.
-
-## Outdoor Classroom Features
-
-Our small but thoughtfully designed outdoor classroom includes:
+- Entry feature
+- Open area for large-motor activities
+- Climbing/crawling area
+- Building area
+- Nature art area
+- Music and movement area
+- Garden and a pathway through planting
+- Gathering area
+- Water area
+- Dirt-digging area
+- Sand area
 
 ### Climbing Areas
 - Two climbing spaces including a preschool-sized horizontal ladder
@@ -123,5 +129,3 @@ Children in our Nature Explorer program develop:
 - Improved physical coordination and strength
 - Greater environmental awareness
 - Deeper connection to natural cycles and seasons
-
-*Certified Nature Explore Classroom*
