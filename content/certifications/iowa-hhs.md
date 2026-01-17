@@ -24,7 +24,6 @@ Our program maintains strict protocols:
 - Safe building design with proper exits and fire safety measures
 - Regular health and safety inspections
 - Proper supervision ratios at all times
-- Safe sleep practices and emergency procedures
 - Well-maintained indoor and outdoor spaces
 
 ### Staff Qualifications
@@ -32,7 +31,6 @@ Our educators meet rigorous standards:
 - All staff complete required First Aid, CPR, and Mandatory Child Abuse Reporter Training
 - Training in infection disease prevention
 - Medication administration certification
-- Emergency response training for food allergies
 - Ongoing professional development requirements
 
 ### Program Requirements
@@ -56,9 +54,6 @@ Our facility meets all state requirements:
 We provide healthy meals and snacks:
 - Staff trained in food safety and proper food handling
 - Nutritious meal planning
-- Accommodation of dietary restrictions and allergies
-- Clean and sanitary food preparation areas
-- Proper food storage and temperature control
 
 ### Accountability & Transparency
 Families can trust our program:
@@ -92,28 +87,18 @@ We're here to help answer questions about the CCA program and support families t
 
 ## Higher Quality, Higher Value
 
-Programs participating in Iowa's Quality Rating System (IQ4K) are eligible for higher Child Care Assistance reimbursement rates. Our IQ4K Level 1 certification demonstrates our commitment to continuous quality improvement and enhanced standards of care.
+Programs participating in Iowa's Quality Rating System (IQ4K) are eligible for higher Child Care Assistance reimbursement rates. Our IQ4K Level 2 certification demonstrates our commitment to continuous quality improvement and enhanced standards of care.
 
 ## Regular Oversight & Inspection
 
 Our program undergoes:
 - Annual unannounced inspections by HHS licensing consultants
 - Fire safety inspections by the State Fire Marshal
-- Health inspections by the Iowa Department of Public Health
 - Ongoing monitoring of compliance with all licensing standards
 - Review of policies, procedures, and documentation
+- Immunization Records verified by the Iowa Department of Public Health
 
 These regular inspections ensure we maintain the highest standards of safety and quality for your child.
-
-## Your Peace of Mind
-
-Choosing a licensed child care program means:
-- **Verified Safety**: Our facilities, policies, and practices meet state safety standards
-- **Qualified Staff**: All staff members undergo background checks and required training
-- **Regular Oversight**: Independent inspectors ensure ongoing compliance
-- **Professional Standards**: We follow evidence-based practices in early childhood education
-- **Accountability**: We answer to state regulatory agencies and families
-- **Financial Support Available**: CCA helps qualifying families access quality care
 
 ## Transparency & Communication
 

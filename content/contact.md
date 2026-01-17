@@ -19,7 +19,7 @@ Ames, Iowa 50014
 
 ## Office Hours
 
-Monday - Friday: 8:00 AM - 5:00 PM  
+Monday - Friday: 8:00 AM - 12:45 PM  
 *Closed on weekends and major holidays*
 
 ## Schedule a Tour

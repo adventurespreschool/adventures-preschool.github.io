@@ -12,14 +12,6 @@ image: "images/teachers/jamie.jpg"
 Course: "Assistant Teacher"
 # biography
 bio: Jamie lives in Ames with her husband Mike and her children Maddie and Drew (both Adventure alumni). Jamie enjoys spending time with her family attending Cyclone football and basketball games, and traveling.
-# interest
-# contact info
-Contact:
-  # contact item loop
-  - name : "jamie@adventurespreschool.org"
-    icon : "ti-email"
-    link : "mailto:jamie@adventurespreschool.org"
-
 # type
 type: "teacher"
 ---

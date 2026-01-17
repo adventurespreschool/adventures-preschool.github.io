@@ -3,7 +3,7 @@ title: "IQ4K Level 2"
 draft: false
 type: "pages"
 bg_image: "images/classroom/learning.jpg"
-description: "Iowa Quality for Kids Level 1 Certified Program"
+description: "Iowa Quality for Kids Level 2 Certified Program"
 ---
 
 # IQ4K Level 2 Certified Program
@@ -22,84 +22,18 @@ Achieving IQ4K Level 2 certification means we meet enhanced standards across six
 <div class="col-md-6">
 
 ### Nutrition & Physical Activity
-We prioritize children's health through:
-- Staff trained in food safety practices
-- Nutritional planning and assessment
-- Regular physical activity opportunities
-- Healthy meal and snack guidelines
 
 ### Professional Development
-Our staff engages in ongoing learning:
-- Individual professional development plans
-- Required orientation training for all staff
-- Continuous education in early childhood best practices
-- Commitment to staying current in the field
 
 ### Leadership & Administration
-We maintain strong program management:
-- Annual program quality assessments
-- Staff self-evaluations for growth
-- Structured improvement planning
-- Data-driven decision making
 
 </div>
 <div class="col-md-6">
 
 ### Family & Community Partnerships
-We build strong connections through:
-- Comprehensive family orientations
-- Regular partnership activities
-- Open communication channels
-- Community engagement opportunities
 
 ### Safe & Enriching Environment
-We provide secure, nurturing spaces:
-- Comprehensive safety policies
-- Regular supervision protocols
-- Safe sleep practices (for younger children)
-- Playground safety and maintenance
-- Positive interaction assessments
 
 ### Teaching Excellence
-We focus on quality instruction:
-- Staff training in Iowa Early Learning Standards
-- Positive behavior guidance policies
-- Evidence-based teaching practices
-- Child-centered learning approaches
-
 </div>
 </div>
-
-## Continuous Quality Improvement
-
-IQ4K certification is not a one-time achievement—it's an ongoing commitment. We regularly:
-- Assess our current practices across all program areas
-- Identify opportunities for growth and enhancement
-- Implement improvements based on best practices
-- Monitor our progress toward higher quality standards
-
-This systematic approach ensures we're always working to provide the best possible experience for your child.
-
-## What This Means for Your Family
-
-When you choose an IQ4K certified program, you can trust that:
-- **We Meet Higher Standards**: Our program exceeds basic licensing requirements
-- **We Invest in Our Staff**: Teachers receive ongoing training and professional development
-- **We Value Your Partnership**: Family engagement is central to our approach
-- **We Focus on Safety**: Comprehensive policies protect your child's wellbeing
-- **We Prioritize Learning**: Our curriculum aligns with Iowa's Early Learning Standards
-- **We Keep Improving**: We continuously evaluate and enhance our practices
-
-## Our Journey Forward
-
-Achieving Level 1 certification is an important milestone, but it's just the beginning. We're committed to continuing our quality improvement journey, working toward higher levels of certification while always keeping the needs of children and families at the center of everything we do.
-
-## Questions About IQ4K?
-
-We're happy to discuss what our IQ4K certification means for your family and how we're working to provide the highest quality care and education for your child. Feel free to ask us during tours or at any time throughout the year.
-
----
-
-*Learn more about Iowa Quality for Kids at [iowaccrr.org/providers/iq4k](https://iowaccrr.org/providers/iq4k/)*
-
-*IQ4K Level 1 Certified Program*
