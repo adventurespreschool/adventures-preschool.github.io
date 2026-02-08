@@ -210,4 +210,20 @@
 {{ end }}
 <!-- /blog -->
 
+<!-- nondiscrimination -->
+{{ if $data.homepage.nondiscrimination.enable }}
+{{ with $data.homepage.nondiscrimination }}
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="mb-0 small" style="color: #495057;">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /nondiscrimination -->
+
 {{ end }}

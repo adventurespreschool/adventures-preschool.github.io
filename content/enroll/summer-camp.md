@@ -1,6 +1,6 @@
 ---
 title: "Summer Camp"
-draft: false
+draft: true
 type: "pages"
 bg_image: "images/outdoors/music-and-movement.jpg"
 description: "4 weeks of summer camp at Adventures Preschool"

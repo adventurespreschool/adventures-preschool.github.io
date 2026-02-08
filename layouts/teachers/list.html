@@ -4,21 +4,173 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2 class="mb-5">{{ .Title }}</h2>
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">{{ .Title }}</h2>
+        <p class="text-muted">Meet the dedicated educators who make Adventures Preschool special</p>
       </div>
     </div>
     <!-- teacher list -->
-    <div class="row">
-      <!-- teacher -->
-      {{ range .Pages }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        {{ .Render "teacher" }}
+    {{ $index := 0 }}
+    {{ $total := len .Pages }}
+    {{ range .Pages.ByWeight }}
+    <div class="row align-items-center mb-5 pb-4 teacher-row">
+      {{ if (modBool $index 2) }}
+      <!-- Even: image on right -->
+      <div class="col-lg-7 col-md-6 order-2 order-md-1 mb-4 mb-md-0">
+        <h3 class="teacher-name">{{ .Title }}</h3>
+        <h6 class="text-primary mb-3 font-weight-bold">{{ .Params.Course }}</h6>
+        <div class="teacher-bio">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <div class="teacher-image-wrapper">
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "teacher-img rounded shadow") }}
+        </div>
+      </div>
+      {{ else }}
+      <!-- Odd: image on left -->
+      <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+        <div class="teacher-image-wrapper">
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "teacher-img rounded shadow") }}
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
+        <h3 class="teacher-name">{{ .Title }}</h3>
+        <h6 class="text-primary mb-3 font-weight-bold">{{ .Params.Course }}</h6>
+        <div class="teacher-bio">
+          {{ .Content }}
+        </div>
       </div>
       {{ end }}
     </div>
+    {{ $index = add $index 1 }}
+    {{ if and (lt $index $total) }}
+    <hr class="my-5">
+    {{ end }}
+    {{ end }}
   </div>
 </section>
 <!-- /teachers -->
+
+<style>
+.teacher-row {
+  padding: 20px 0;
+}
+
+.teacher-name {
+  color: var(--primary-color, #2C3E50);
+  margin-bottom: 10px;
+}
+
+.teacher-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.3s ease;
+}
+
+.teacher-image-wrapper:hover .teacher-img {
+  transform: scale(1.02);
+}
+
+.teacher-bio {
+  color: #555;
+  line-height: 1.7;
+}
+
+.teacher-bio h3 {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.teacher-bio p {
+  margin-bottom: 15px;
+}
+
+/* Extra large screens - constrain image size */
+@media (min-width: 1200px) {
+  .teacher-image-wrapper {
+    max-width: 380px;
+  }
+
+  .teacher-img {
+    max-height: 450px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .teacher-image-wrapper {
+    max-width: 340px;
+  }
+
+  .teacher-img {
+    max-height: 400px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .teacher-image-wrapper {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .teacher-img {
+    max-height: 380px;
+  }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 767.98px) {
+  .teacher-row {
+    text-align: center;
+  }
+
+  .teacher-image-wrapper {
+    max-width: 280px;
+    margin: 0 auto 25px;
+  }
+
+  .teacher-img {
+    max-height: 340px;
+  }
+
+  .teacher-bio {
+    text-align: left;
+  }
+
+  .teacher-name {
+    text-align: center;
+  }
+
+  .text-primary.font-weight-bold {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 575.98px) {
+  .teacher-image-wrapper {
+    max-width: 240px;
+  }
+
+  .teacher-img {
+    max-height: 300px;
+  }
+}
+</style>
 
 {{ end }}

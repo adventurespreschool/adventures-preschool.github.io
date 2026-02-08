@@ -44,7 +44,7 @@ pagerSize = 6
   link = "js/swiper-init.js"
 
 [params]
-  logo = "images/logos/adventures-logo-full.png"
+  logo = "images/logos/adventures-logo-combined.png"
   # Meta data
   description = "Adventures Preschool - Where children learn by being actively engaged, by playing, and by experiencing"
   author = "Adventures Preschool"
@@ -100,11 +100,11 @@ pagerSize = 6
   url = "enroll/school-year-program/"
   weight = 1
 
-  [[menu.main]]
-  parent = "Enroll"
-  name = "Summer Camp"
-  url = "enroll/summer-camp/"
-  weight = 2
+  # [[menu.main]]
+  # parent = "Enroll"
+  # name = "Summer Camp"
+  # url = "enroll/summer-camp/"
+  # weight = 2
 
 [[menu.main]]
   name = "Certifications"

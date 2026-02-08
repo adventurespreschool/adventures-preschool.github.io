@@ -1,5 +1,6 @@
 ---
 title: "Jill Strawhacker"
+weight: 1
 draft: false
 type: "pages"
 # page title background image
@@ -18,8 +19,5 @@ type: "teacher"
 
 ### About Jill
 
-Jill Strawhacker has been the heart of Adventures Preschool for over a decade. Her warm, nurturing approach creates a classroom environment where children feel safe to explore, question, and grow. With a Master's degree in Early Childhood Education from Iowa State University, Jill combines academic expertise with a genuine love for teaching young children.
+Jill Strawhacker is the director and lead teacher at Adventures Preschool.  Jill has been with Adventures Preschool since 2008.  Jill graduated from Iowa State University with two Bachelor of Science degrees in Early Childhood Education and has been working with young children and their families for over 30 years.  Jill’s family includes her husband Chris and sons Jonah and Cameron.  Jonah and Cameron are both Adventures Preschool alumni and graduates of Ames High School.  Jill’s hobbies include reading, gardening, kayaking, hiking and visiting the Boundary Waters Canoe Areas of northern Minnesota.
 
-### Teaching Philosophy
-
-"I believe every child is a natural scientist, artist, and storyteller," says Jill. "My role is to provide the materials, time, and encouragement they need to explore these identities. When children lead their own learning through play, they develop not just academic skills, but confidence, creativity, and joy in discovery."
