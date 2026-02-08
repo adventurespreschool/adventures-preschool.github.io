@@ -5,20 +5,9 @@
   <div class="top-header py-2">
     <div class="container">
       <div class="row no-gutters align-items-center">
-        <div class="col-lg-4 text-center text-lg-left mb-2 mb-lg-0">
+        <div class="col-12 text-center text-lg-right">
           <ul class="list-inline mb-0">
-            {{ range site.Params.social }}
-            <li class="list-inline-item mx-1">
-              <a class="d-inline-block p-2 social-link" href="{{ .link | safeURL }}" title="{{ .title }}">
-                <i class="{{ .icon }}"></i>
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-        <div class="col-lg-8 text-center text-lg-right">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mb-1 mb-lg-0">
+            <li class="list-inline-item">
               <a class="contact-link" href="tel:{{ site.Params.mobile }}">
                 <i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}
               </a>

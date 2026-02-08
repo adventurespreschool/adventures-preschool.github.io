@@ -10,7 +10,7 @@ description: "Our certified Nature Explore outdoor classroom"
 
 At Adventures Preschool, we believe that children can learn by being actively engaged, by playing and by experiencing. Our certified Nature Explore outdoor classroom provides children with meaningful opportunities to connect with nature while developing essential skills.
 
-Visit the Nature Explorer [site](https://certified.natureexplore.org/adventures-preschool/) for our certification and more information!
+Visit the <b>Nature Explorer</b> [site](https://certified.natureexplore.org/adventures-preschool/) for our certification and more information!
 
 ## Our Certified Nature Explore Outdoor Classroom
 
@@ -123,7 +123,7 @@ Our certified Nature Explore classroom reflects our belief that children learn t
 
 ## Benefits of Nature-Based Learning
 
-Children in our Nature Explorer program develop:
+Children in our <b>Nature Explorer</b> program develop:
 - Enhanced creativity and imagination
 - Stronger problem-solving abilities
 - Improved physical coordination and strength

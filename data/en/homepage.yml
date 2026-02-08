@@ -130,3 +130,9 @@ funfacts:
 blog:
   enable : false
   title : "Latest News"
+
+
+########################### nondiscrimination ############################
+nondiscrimination:
+  enable : true
+  content : "Adventures Preschool admits students of any race, color, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school. It does not discriminate on the basis of race, color, national or ethnic origin in administration of its educational policies, admission policies, scholarship and loans programs, and athletic and other school-administered programs."
