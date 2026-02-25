@@ -4,14 +4,14 @@ description: 'Enrollment information for Adventures Preschool'
 type: "pages"
 ---
 
-## Enrollment is Now Open for the 2025-2026 School Year!
+## Enrollment is Now Open for the 2026-27 School Year!
 
 We're excited to welcome new families to Adventures Preschool! As a parent co-operative preschool, we believe that families are integral partners in their child's education.
 
 ## Apply Online
 
 <div class="enroll-button-container">
-<a href="https://app.tryplayground.com/listings/guQMeh6G2cOxZXb9IliZ" class="enroll-button">
+<a href=https://app.tryplayground.com/listings/3lLMCrapeufwGUgojppm class="enroll-button">
 Enroll Now
 </a>
 </div>
