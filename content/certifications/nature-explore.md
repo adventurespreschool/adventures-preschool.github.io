@@ -10,7 +10,7 @@ description: "Our certified Nature Explore outdoor classroom"
 
 At Adventures Preschool, we believe that children can learn by being actively engaged, by playing and by experiencing. Our certified Nature Explore outdoor classroom provides children with meaningful opportunities to connect with nature while developing essential skills.
 
-Visit the <b>Nature Explorer</b> [site](https://certified.natureexplore.org/adventures-preschool/) for our certification and more information!
+Visit the <b>Nature Explore Website </b> [site](https://certified.natureexplore.org/adventures-preschool/) for our certification and more information!
 
 ## Our Certified Nature Explore Outdoor Classroom
 
