@@ -48,6 +48,6 @@ Have a specific question? Here are some quick links:
 - [Enrollment Information](/enroll/school-year-program/)
 - [Our Philosophy](/resources/philosophy/)
 - [Parent Resources](/resources/parents/)
-- [Summer Camp](/enroll/summer-camp/)
+
 
 We look forward to welcoming you to the Adventures Preschool family!
