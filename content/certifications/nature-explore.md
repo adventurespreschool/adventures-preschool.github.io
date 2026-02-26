@@ -123,7 +123,7 @@ Our certified Nature Explore classroom reflects our belief that children learn t
 
 ## Benefits of Nature-Based Learning
 
-Children in our <b>Nature Explorer</b> program develop:
+Children in our program develop:
 - Enhanced creativity and imagination
 - Stronger problem-solving abilities
 - Improved physical coordination and strength
