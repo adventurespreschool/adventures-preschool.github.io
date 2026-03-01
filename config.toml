@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://adventurespreschool.org/"
 languageCode = "en-us"
 title = "Adventures Preschool"
 theme = "educenter"
