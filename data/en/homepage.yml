@@ -81,7 +81,7 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Enrollment is now open for 2025-2026"
+  subtitle : "Enrollment is now open for 2026-27"
   title : "Join Our Adventures Preschool Family"
   button:
     enable : true
