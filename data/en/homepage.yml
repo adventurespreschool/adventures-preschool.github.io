@@ -34,6 +34,16 @@ slider:
         link : "resources/philosophy/"
 
 
+########################## Hiring banner ############################
+hiring_banner:
+  enable : true
+  text : "We're hiring! Now accepting applications for a 2026-27 Assistant Teacher."
+  button:
+    enable : true
+    label : "View Job Listing"
+    link : "documents/assistant-teacher-listing.pdf"
+
+
 ############################### Banner feature ###############################
 banner_feature:
   enable : true

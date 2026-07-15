@@ -8,10 +8,19 @@ type: "pages"
 
 ## Documents
 
-- [2025-26 Calendar and Supply List](#)
+- [2026-27 Calendar](/documents/2026-27-calendar.pdf)
+- [2026-27 Supply List](/documents/2026-27-supply-list.pdf)
 - [Classroom Wish List](#)
-- [Parent Handbook](https://www.adventurespreschool.org/wp-content/uploads/2024/01/August-2023-Parent-Handbook.pdf)
+- [Parent Handbook](/documents/parent-handbook.pdf)
 - [IDPH Common Illness and Exclusion Criteria](https://www.adventurespreschool.org/wp-content/uploads/2022/09/Common-Illness-and-Exclusion-May-2021.pdf)
+
+## Employment
+
+**We're hiring an Assistant Teacher for the 2026-27 school year!**
+
+Adventures Preschool is looking for an assistant teacher who would enjoy working in our play-based, parent cooperative preschool. Part time, Monday-Friday mornings, August 24 - May 31 (with possible hours in June 2027).
+
+[View the full job listing](/documents/assistant-teacher-listing.pdf) for position requirements and responsibilities. To apply or ask questions, please [contact us](/contact/).
 
 ## Ages & Stages
 
