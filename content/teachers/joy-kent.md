@@ -1,5 +1,5 @@
 ---
-title: "Jamie O'Donnell"
+title: "Joy Kent"
 weight: 2
 draft: false
 type: "pages"
