@@ -8,7 +8,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Meet Joy Kent, Lead Teacher at Adventures Preschool"
 # teacher portrait
-# image: "images/teachers/joy.jpg"
+image: "images/teachers/joy.jpg"
 # course
 Course: "Lead Teacher"
 # biography
