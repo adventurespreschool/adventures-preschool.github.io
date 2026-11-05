@@ -2,7 +2,7 @@
 title: "IQ4K Level 2"
 draft: false
 type: "pages"
-bg_image: "images/classroom/learning.jpg"
+bg_image: "images/nature-explore/messy-materials.jpg"
 description: "Iowa Quality for Kids Level 2 Certified Program"
 ---
 
@@ -18,22 +18,9 @@ Iowa Quality for Kids is Iowa's Quality Rating and Improvement System (QRIS) for
 
 Achieving IQ4K Level 2 certification means we meet enhanced standards across six key areas:
 
-<div class="row mb-4">
-<div class="col-md-6">
-
-### Nutrition & Physical Activity
-
-### Professional Development
-
-### Leadership & Administration
-
-</div>
-<div class="col-md-6">
-
-### Family & Community Partnerships
-
-### Safe & Enriching Environment
-
-### Teaching Excellence
-</div>
-</div>
+- Nutrition & Physical Activity
+- Professional Development
+- Leadership & Administration
+- Family & Community Partnerships
+- Safe & Enriching Environment
+- Teaching Excellence

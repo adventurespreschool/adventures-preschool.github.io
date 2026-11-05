@@ -4,12 +4,6 @@ description: 'Where children learn by being actively engaged, by playing, and by
 featured_image: '/images/banner/banner.jpg'
 ---
 
-<div class="enrollment-highlight">
-
-# Enrollment is now open for the 2025-2026 school year!
-
-</div>
-
 Welcome to Adventures Preschool, where children learn by being actively engaged, by playing, and by experiencing. We believe in the power of nature-based learning and parent collaboration to create an exceptional early childhood education experience.
 
 ## Why Choose Adventures Preschool? <span class="adventure-decoration"></span>
@@ -18,8 +12,6 @@ Welcome to Adventures Preschool, where children learn by being actively engaged,
 
 ### Professional Teachers
 Our experienced and dedicated teaching staff brings passion and expertise to early childhood education. We create a nurturing environment where every child can thrive.
-
-{{< image src="images/about/hanging.jpg" alt="Reading time with our teachers" >}}
 
 </div>
 

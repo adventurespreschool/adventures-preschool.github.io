@@ -2,7 +2,7 @@
 title: "Iowa HHS Licensed"
 draft: false
 type: "pages"
-bg_image: "images/classroom/classroom.jpg"
+bg_image: "images/outdoors/outdoor-classroom.jpg"
 description: "Licensed by the Iowa Department of Health and Human Services"
 ---
 
@@ -29,7 +29,7 @@ Our program maintains strict protocols:
 ### Staff Qualifications
 Our educators meet rigorous standards:
 - All staff complete required First Aid, CPR, and Mandatory Child Abuse Reporter Training
-- Training in infection disease prevention
+- Training in infectious disease prevention
 - Medication administration certification
 - Ongoing professional development requirements
 
@@ -96,7 +96,7 @@ Our program undergoes:
 - Fire safety inspections by the State Fire Marshal
 - Ongoing monitoring of compliance with all licensing standards
 - Review of policies, procedures, and documentation
-- Immunization Records verified by the Iowa Department of Public Health
+- Immunization records verified by the Iowa Department of Public Health
 
 These regular inspections ensure we maintain the highest standards of safety and quality for your child.
 
@@ -118,5 +118,5 @@ We're happy to discuss what our HHS licensing means for your family and how we m
 
 *Learn more about Iowa child care licensing at [hhs.iowa.gov/programs/programs-and-services/child-care](https://hhs.iowa.gov/programs/programs-and-services/child-care)*
 
-*Licensed by Iowa Department of Health and Human Services*
+*Licensed by Iowa Department of Health and Human Services*  
 *Child Care Assistance (CCA) Provider*

@@ -2,7 +2,7 @@
 title: "Nature Explore"
 draft: false
 type: "pages"
-bg_image: "images/outdoors/garden.jpg"
+bg_image: "images/outdoors/slide.jpg"
 description: "Our certified Nature Explore outdoor classroom"
 ---
 
@@ -67,7 +67,7 @@ Visit the <b>Nature Explore</b> [site](https://certified.natureexplore.org/adven
 - Sensory experiences with natural materials
 
 **Gathering Space**
-- Special area under our maple tree
+- Picnic tables and blankets for sharing time together
 - Place for group activities and reflection
 - Connection with our natural environment
 
@@ -84,7 +84,7 @@ Visit the <b>Nature Explore</b> [site](https://certified.natureexplore.org/adven
 Children engage with natural materials in meaningful ways, developing creativity and problem-solving skills through open-ended exploration.
 
 <div class="mt-3">
-{{< image src="images/nature-explore/mud-painting.jpg" alt="Mud painting activities" class="img-fluid" >}}
+{{< image src="images/nature-explore/leaf-playing.jpg" alt="Leaf playing activities" class="img-fluid" >}}
 </div>
 
 </div>
@@ -95,7 +95,7 @@ Children engage with natural materials in meaningful ways, developing creativity
 Our outdoor classroom provides countless opportunities for children to observe, experiment, and discover natural phenomena.
 
 <div class="mt-3">
-{{< image src="images/nature-explore/ice.jpg" alt="Ice exploration activities" class="img-fluid" >}}
+{{< image src="images/nature-explore/messy-materials.jpg" alt="Messy materials area" class="img-fluid" >}}
 </div>
 
 </div>
@@ -103,10 +103,10 @@ Our outdoor classroom provides countless opportunities for children to observe, 
 <div class="col-md-4 mb-4 mb-md-0">
 
 ### Community Gathering
-Our special gathering space under the maple tree brings children together for group activities and reflection. This area fosters connection.
+Our new outdoor classroom has room for everyone. Children come together at picnic tables and on blankets for shared snacks, group projects, and reflection. These spaces build friendship and a sense of belonging.
 
 <div class="mt-3">
-{{< image src="images/outdoors/picnic-table.jpg" alt="Our outdoor gathering space" class="img-fluid" >}}
+{{< image src="images/outdoors/nature-art.jpg" alt="Picnic tables in our new outdoor classroom" class="img-fluid" >}}
 </div>
 
 </div>

@@ -2,7 +2,7 @@
 title: "Summer Camp"
 draft: true
 type: "pages"
-bg_image: "images/outdoors/music-and-movement.jpg"
+bg_image: "images/nature-explore/leaf-playing.jpg"
 description: "4 weeks of summer camp at Adventures Preschool"
 ---
 
@@ -39,11 +39,11 @@ Our summer camp continues our commitment to active, hands-on learning through pl
 <div class="row mb-4">
 
 <div class="col-md-6 mb-4 mb-md-0">
-{{< image src="images/outdoors/crafts.jpg" alt="Outdoor crafts and creative activities" class="img-fluid" >}}
+{{< image src="images/outdoors/nature-art.jpg" alt="Outdoor nature art area" class="img-fluid" >}}
 </div>
 
 <div class="col-md-6 mb-4 mb-md-0">
-{{< image src="images/outdoors/water-table.jpg" alt="Water table activities" class="img-fluid" >}}
+{{< image src="images/nature-explore/sandbox.jpg" alt="Sand play area" class="img-fluid" >}}
 </div>
 
 </div>

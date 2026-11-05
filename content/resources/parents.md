@@ -12,7 +12,7 @@ type: "pages"
 - [2026-27 Supply List](/documents/2026-27-supply-list.pdf)
 - [Classroom Wish List](#)
 - [Parent Handbook](/documents/parent-handbook.pdf)
-- [IDPH Common Illness and Exclusion Criteria](https://www.adventurespreschool.org/wp-content/uploads/2022/09/Common-Illness-and-Exclusion-May-2021.pdf)
+- [Iowa HHS Child Illness and Exclusion Criteria](https://hhs.iowa.gov/media/2819/download)
 
 
 ## Ages & Stages
