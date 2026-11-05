@@ -3,9 +3,9 @@ title: "About Adventures Preschool"
 draft: false
 type: "pages"
 # page title background image
-bg_image: "images/outdoors/playground.jpg"
+bg_image: "images/outdoors/outdoor-classroom.jpg"
 # about image
-image: "images/outdoors/crafts.jpg"
+image: "images/outdoors/nature-art.jpg"
 # meta description
 description : "Learn about Adventures Preschool, a parent cooperative preschool in Ames, Iowa"
 ---
@@ -53,7 +53,7 @@ Our teachers are experienced early childhood educators who:
 
 At Adventures Preschool, we believe in teaching children the importance of giving back to their community. Throughout the year, our students participate in various service projects, including food drives and community outreach programs.
 
-{{< image src="images/about/foodbank.jpg" alt="Children participating in community service" >}}
+{{< image src="images/about/foodbank.jpg" alt="Children participating in community service" class="img-fluid" >}}
 
 ### Join Our Adventure
 

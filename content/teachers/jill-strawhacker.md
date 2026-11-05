@@ -12,12 +12,12 @@ image: "images/teachers/jill.jpg"
 # course
 Course: "Director"
 # biography
-bio: Jill brings over 30 years of experience in early childhood education to Adventures Preschool. She holds two Bachelor degrees in Early Childhood Education and is passionate about nature-based learning.
+bio: Jill brings over 30 years of experience in early childhood education to Adventures Preschool. She holds two Bachelor's degrees in Early Childhood Education and is passionate about nature-based learning.
 # type
-type: "teacher"
+# type: "teacher"
 ---
 
 ### About Jill
 
-Jill Strawhacker is the director at Adventures Preschool.  Jill has been with Adventures Preschool since 2008.  Jill graduated from Iowa State University with two Bachelor of Science degrees in Early Childhood Education and has been working with young children and their families for over 30 years.  Jill’s family includes her husband Chris and sons Jonah and Cameron.  Jonah and Cameron are both Adventures Preschool alumni and graduates of Ames High School.  Jill’s hobbies include reading, gardening, kayaking, hiking and visiting the Boundary Waters Canoe Areas of northern Minnesota.
+Jill Strawhacker is the director at Adventures Preschool.  Jill has been with Adventures Preschool since 2008.  Jill graduated from Iowa State University with two Bachelor of Science degrees in Early Childhood Education and has been working with young children and their families for over 30 years.  Jill’s family includes her husband Chris and sons Jonah and Cameron.  Jonah and Cameron are both Adventures Preschool alumni and graduates of Ames High School.  Jill’s hobbies include reading, gardening, kayaking, hiking and visiting the Boundary Waters Canoe Area of northern Minnesota.
 
